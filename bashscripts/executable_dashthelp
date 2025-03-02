@@ -1,6 +1,0 @@
-#!/bin/sh
-
-dashthelp() {
-    argument=$(awk '{print $1}')
-    dasht "$argument" PHP
-}
