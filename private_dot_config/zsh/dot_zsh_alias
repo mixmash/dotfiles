@@ -1,0 +1,385 @@
+
+# Linux System / Operation System
+alias shutd='sudo shutdown -h now'
+alias open='xdg-open'
+alias restart-mouse="sudo rmmod psmouse ; sudo modprobe psmouse"
+alias mkdir='mkdir -p'
+alias e='$EDITOR'
+alias se='sudo $EDITOR'
+alias cp="cp -r"
+alias vimdiff="nvim -d --cmd ':lua vim.g.noplugins=1'"
+# Because of too long saved history
+alias history="history 1"
+# alias ag="ag --color --color-line-number '0;35' --color-match '46;30' --color-path '4;36'"
+# alias aga="ag --hidden --color --color-line-number '0;35' --color-match '46;30' --color-path '4;36'"
+# alias tree='tree -CAFa -I "CVS|*.*.package|.svn|.git|.hg|node_modules|bower_components" --dirsfirst'
+
+#█▓▒░ revive your drive
+function docclean() {
+	sudo docker rm $(sudo docker ps -a -q)
+	sudo docker rmi $(sudo docker images -q)
+}
+
+alias change_mac_address="./bashscripts/change_mac_address.sh"
+alias reset-resolution="xrandr -s 0"      # Reset screen resolution
+# chown
+alias chownmm='sudo chown -R mircomalik:mircomalik .'
+# alias chownmm='cd ..; sudo chown -R mircomalik:mircomalik $(pwd);'
+alias chownww='sudo chown -R www-data:www-data .'
+# alias chownww='cd ..; sudo chown -R www-data:www-data $(pwd);'
+
+# Colorize grep output (good for log files)
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+# Apt Package manager
+alias apt="sudo apt-get"
+alias apti="sudo apt-get install"
+alias aptr="sudo apt-get remove"
+alias ug='sudo apt update -y;sudo apt upgrade -y'
+#alias aptclean="sudo apt autoclean -y; sudo apt autoremove -y"
+alias ac='sudo apt autoremove -y; sudo apt autoclean -y'
+
+# Change Directories
+alias cd1='cd ..'
+alias cd2='cd ../../'
+alias cd3='cd ../../../'
+alias cd4='cd ../../../../'
+alias cd5='cd ../../../../../'
+alias ..="cd ../"
+alias ...="cd ../../"
+alias ....="cd ../../../"
+alias .....="cd ../../../../"
+
+# Brew Package Manger
+alias brc="brew cleanup"
+alias bri="brew install"
+alias brl="brew list"
+alias brr="brew uninstall"
+alias bru="brew upgrade"
+
+# Zathura
+alias zz="zathura"
+
+# Systemctl
+alias sysd="sudo systemctl disable"
+alias syse="sudo systemctl enable"
+alias sysr="sudo systemctl restart"
+alias syss="systemctl status"
+alias systa="sudo systemctl start"
+alias systo="sudo systemctl stop"
+
+# cd into dir and list contents
+# function lc() {
+#     cd "$1" && la "$2"
+# }
+
+# confirm before overwriting something
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+
+# some more ls aliases
+alias ll='ls -alFh'
+alias la='ls -A'
+alias l='ls -CF'
+
+# easier to read disk
+alias df='df -h'     # human-readable sizes
+alias free='free -m' # show sizes in MB
+
+# bashscripts
+alias tvpn='~/bashscripts/toggle-vpn.sh'
+
+# Terminal Shortcuts
+alias c='clear'
+alias fdh='fd --hidden --no-ignore'
+alias agh='ag -u'
+alias rm=trash
+alias vs=codium
+alias kt='pkill telegram'
+alias fd=fdfind
+
+# Apps
+alias nv='nvim';
+
+# PHP
+alias composer='/usr/local/bin/composer'
+
+# Git
+alias ga='git add'
+alias gau='git add -u'
+alias gm='git commit'
+alias gfp='git fetch; git pull'
+function gcm () {
+    # git commit -m '"$@"'
+    git commit -m "$*"
+}
+alias gs='git status'
+alias gp='git push'
+alias gr='git restore'
+alias grs='git restore --staged'
+alias lg='lazygit'
+
+# # Kubernetes
+# alias k=kubectl
+# alias kc=kubectx
+# alias kn=kubens
+# source <(kubectl completion zsh)
+# alias k=kubectl
+# complete -o default -F __start_kubectl k
+
+
+# open () {
+#     xdg-open $* > /dev/null 2>&1
+# }
+
+# Docker
+# alias d='docker'
+# alias dc='docker-compose'
+# alias dcu='dc up -d'
+# alias dcd='dc down'
+# alias dcr='dc restart'
+# alias dcb='COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose build'
+# alias dps='docker ps'
+
+# Pimcore Docker
+# DOCKER_CONTAINER_NAME='fpm'
+# alias fpm='PS1="🐳 \e[0;34m$DOCKER_CONTAINER_NAME\e[0m \w # ";docker-compose exec --user www-data -e PS1 fpm bash'
+# alias fpm='docker-compose exec --user www-data -e PS1 fpm bash'
+# alias pdb="docker-compose exec --user www-data database mysql -u root -proot pimcore"
+# Problem with asterisk - with e.g. SELECT * FROM database
+# alias pdbc="docker-compose exec --user www-data database mysql -u root -proot pimcore -e $1"
+
+# Git
+alias ga="git add"
+alias gb="git branch"
+alias gc="git clone"
+alias gcm="git commit -m"
+alias gco="git checkout"
+alias gcob="git checkout -b"
+alias gcs="git commit -S -m"
+alias gd="git difftool"
+alias gdc="git difftool --cached"
+alias gf="git fetch"
+alias gg="git graph"
+alias ggg="git graphgpg"
+alias gm="git merge"
+alias gp="git push"
+alias gpr="gh pr create"
+alias gr="git rebase -i"
+alias gs="git status -sb"
+alias gt="git tag"
+alias gu="git reset @ -- "
+alias gx="git reset --hard @"
+
+# Make directory and cd into it
+function mcd() {
+    mkdir -p -- "$1" && cd -P -- "$1"
+}
+
+# backup file
+function bak() {
+  cp $1{,.bak}
+}
+
+# add all permissions
+function perm-all() {
+  chmod -R 777 $1
+}
+
+# change owner to me
+function claim() {
+  sudo chown -R $USER $1
+}
+
+# tar
+function compress() {
+  tar -czvf archive.tar.gz $1
+}
+function decompress() {
+  tar -zxv -f $1
+}
+
+
+
+#!/bin/bash
+# function Extract for common file formats
+#
+# This is a Bash function called "extract" that is designed to extract a variety of file formats.
+# It takes one or more arguments, each of which represents a file or path that needs to be extracted.
+# If no arguments are provided, the function displays usage instructions.
+#
+# This bash script allows to download a file from Github storage https://github.com/xvoland/Extract/blob/master/extract.sh
+#
+# Usage:
+#     extract <path/file_name>.<zip|rar|bz2|gz|tar|tbz2|tgz|Z|7z|xz|ex|tar.bz2|tar.gz|tar.xz|.zlib|.cso>
+#
+# Example:
+# $ extract file_name.zip
+#
+# Author: Vitalii Tereshchuk, 2013
+# Web:    https://dotoca.net
+# Github: https://github.com/xvoland/Extract/blob/master/extract.sh
+
+
+SAVEIFS=$IFS
+IFS="$(printf '\n\t')"
+
+function extract {
+ if [ $# -eq 0 ]; then
+    # display usage if no parameters given
+    echo "Usage: extract <path/file_name>.<zip|rar|bz2|gz|tar|tbz2|tgz|Z|7z|xz|ex|tar.bz2|tar.gz|tar.xz|.zlib|.cso>"
+    echo "       extract <path/file_name_1.ext> [path/file_name_2.ext] [path/file_name_3.ext]"
+ fi
+    for n in "$@"; do
+        if [ ! -f "$n" ]; then
+            echo "'$n' - file doesn't exist"
+            return 1
+        fi
+
+        case "${n%,}" in
+          *.cbt|*.tar.bz2|*.tar.gz|*.tar.xz|*.tbz2|*.tgz|*.txz|*.tar)
+                       tar zxvf "$n"       ;;
+          *.lzma)      unlzma ./"$n"      ;;
+          *.bz2)       bunzip2 ./"$n"     ;;
+          *.cbr|*.rar) unrar x -ad ./"$n" ;;
+          *.gz)        gunzip ./"$n"      ;;
+          *.cbz|*.epub|*.zip) unzip ./"$n"   ;;
+          *.z)         uncompress ./"$n"  ;;
+          *.7z|*.apk|*.arj|*.cab|*.cb7|*.chm|*.deb|*.iso|*.lzh|*.msi|*.pkg|*.rpm|*.udf|*.wim|*.xar|*.vhd)
+                       7z x ./"$n"        ;;
+          *.xz)        unxz ./"$n"        ;;
+          *.exe)       cabextract ./"$n"  ;;
+          *.cpio)      cpio -id < ./"$n"  ;;
+          *.cba|*.ace) unace x ./"$n"     ;;
+          *.zpaq)      zpaq x ./"$n"      ;;
+          *.arc)       arc e ./"$n"       ;;
+          *.cso)       ciso 0 ./"$n" ./"$n.iso" && \
+                            extract "$n.iso" && \rm -f "$n" ;;
+          *.zlib)      zlib-flate -uncompress < ./"$n" > ./"$n.tmp" && \
+                            mv ./"$n.tmp" ./"${n%.*zlib}" && rm -f "$n"   ;;
+          *.dmg)
+                      hdiutil mount ./"$n" -mountpoint "./$n.mounted" ;;
+          *)
+                      echo "extract: '$n' - unknown archive method"
+                      return 1
+                      ;;
+        esac
+    done
+}
+
+IFS=$SAVEIFS
+
+
+### Fix slowness of pastes with zsh-syntax-highlighting.zsh
+# pasteinit() {
+#   OLD_SELF_INSERT=${${(s.:.)widgets[self-insert]}[2,3]}
+#   zle -N self-insert url-quote-magic # I wonder if you'd need `.url-quote-magic`?
+# }
+
+# pastefinish() {
+#   zle -N self-insert $OLD_SELF_INSERT
+# }
+# zstyle :bracketed-paste-magic paste-init pasteinit
+# zstyle :bracketed-paste-magic paste-finish pastefinish
+### Fix slowness of pastes
+
+# Print colors in Terminal with codes
+function color() {
+    local fgc bgc vals seq0
+
+    printf "Color escapes are %s\n" '\e[${value};...;${value}m'
+    printf "Values 30..37 are \e[33mforeground colors\e[m\n"
+    printf "Values 40..47 are \e[43mbackground colors\e[m\n"
+    printf "Value  1 gives a  \e[1mbold-faced look\e[m\n\n"
+
+    # foreground colors
+    for fgc in {30..37}; do
+        # background colors
+        for bgc in {40..47}; do
+            fgc=${fgc#37} # white
+            bgc=${bgc#40} # black
+
+            vals="${fgc:+$fgc;}${bgc}"
+            vals=${vals%%;}
+
+            seq0="${vals:+\e[${vals}m}"
+            printf "  %-9s" "${seq0:-(default)}"
+            printf " ${seq0}TEXT\e[m"
+            printf " \e[${vals:+${vals+$vals;}}1mBOLD\e[m"
+        done
+        echo
+        echo
+    done
+}
+
+# ex - archive extractor
+function ex() {
+    if [ -f $1 ]; then
+        case $1 in
+        *.tar.bz2) tar xjf $1 ;;
+        *.tar.gz) tar xzf $1 ;;
+        *.bz2) bunzip2 $1 ;;
+        *.rar) unrar x $1 ;;
+        *.gz) gunzip $1 ;;
+        *.tar) tar xf $1 ;;
+        *.tbz2) tar xjf $1 ;;
+        *.tgz) tar xzf $1 ;;
+        *.zip) unzip $1 ;;
+        *.Z) uncompress $1 ;;
+        *.7z) 7z x $1 ;;
+        *) echo "'$1' cannot be extracted via ex()" ;;
+        esac
+    else
+        echo "'$1' is not a valid file"
+    fi
+}
+
+# # Swap caps lock with escape
+# if type setxkbmap >/dev/null 2>&1; then
+#     setxkbmap -option caps:swapescape
+# fi
+#
+# Executables
+# if type dircolors >/dev/null 2>&1; then eval "$(dircolors ~/.dircolors)"; fi
+# if type thefuck >/dev/null 2>&1; then eval "$(thefuck --alias)"; fi
+# if type navi >/dev/null 2>&1; then eval "$(navi widget zsh)"; fi
+
+# Add colors to man pages
+function man() {
+    env \
+        LESS_TERMCAP_mb=$(printf "\e[1;31m") \
+        LESS_TERMCAP_md=$(printf "\e[1;36m") \
+        LESS_TERMCAP_me=$(printf "\e[0m") \
+        LESS_TERMCAP_se=$(printf "\e[0m") \
+        LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
+        LESS_TERMCAP_ue=$(printf "\e[0m") \
+        LESS_TERMCAP_us=$(printf "\e[1;32m") \
+        PAGER="${commands[less]:-$PAGER}" \
+        _NROFF_U=1 \
+        PATH="$HOME/bin:$PATH" \
+        man "$@"
+}
+
+function conf() {
+    du -a ~/.config/* | awk '{print $2}' | fzf | xargs -r nvim ;
+}
+
+# open with fzf preview
+function o () {
+  files="$(fzf --print0 --preview "bat --theme ansi --color always {}")"
+  if [ -z "$files" ]; then
+    return
+  fi
+  echo -n "$files" | xargs -0 -o "$EDITOR"
+}
+
+
+# Navigating to project root
+function r () {
+    cd "$(git rev-parse --show-toplevel 2>/dev/null)"
+}
+alias ofd="fd . | fzf | xargs -i dirname '{}' | xargs -i xdg-open '{}'"
+alias od="fd --type d . | fzf | xargs -i xdg-open '{}'"
