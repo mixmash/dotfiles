@@ -1,0 +1,1571 @@
+: 1689007289:0;zap
+: 1689007314:0;which zap
+: 1689007505:11;git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf\
+~/.fzf/install
+: 1689007432:0;fzf
+: 1689023446:4;sudo apt list | grep scribus
+: 1689024567:0;asd
+: 1689025494:0;cpufetch
+: 1689025594:0;snap list | kde
+: 1689025597:0;snap list | grep kde
+: 1689025611:2;sudo apt list | grep kde
+: 1689025616:1;sudo apt list | grep kdelive
+: 1689025622:1;sudo apt list | grep kde-live
+: 1689025711:0;emacs
+: 1689025725:6;nano
+: 1689025747:1;sudo apt list | grep kdenlive
+: 1689025754:4;sudo apt-get purge kdenlive
+: 1689025850:100;bpytop
+: 1689026003:4;sudo apt-get purge htop
+: 1689026149:1;sudo apt-get purge wine
+: 1689026163:1;sudo apt autoremove wine
+: 1689026220:1;sudo apt autoremove wine-stable
+: 1689026235:0;sudo apt autoremove wine32
+: 1689026256:1;sudo apt list
+: 1689026261:1;sudo apt list | grep wine
+: 1689026272:0;sudo apt purge wine
+: 1689026277:1;sudo apt remove wine
+: 1689026279:1;sudo apt remove wine32
+: 1689026288:0;sudo apt remove winetricks
+: 1689026293:0;wine uninstaller
+: 1689026307:0;apt list --installed
+: 1689026327:1;whoopsie
+: 1689026345:4;toilet
+: 1689026370:9;sudo apt purge rstudio-server/
+: 1689026470:1;apt list --installed | head -n 200
+: 1689026507:1;apt list --installed | head -n 400
+: 1689026547:0;sudo apt autoclean -y
+: 1689026624:12;sudo apt purge epson-printer-utility
+: 1689026690:9;sudo apt-get purge edrawmax
+: 1689026721:7;sudo apt-get purge ferdi
+: 1689026767:0;fluxgui
+: 1689026830:8;sudo apt-get purge github-desktop
+: 1689026844:6;sudo apt-get purge fluxgui
+: 1689026861:8;sudo apt-get purge hplip
+: 1689026995:0;sudo aptitude clean
+: 1689026998:4;sudo aptitude autoclean
+: 1689027007:24;sudo apt-get autoremove
+: 1689027035:0;sudo apt-get autoclean -y
+: 1689027053:7;sudo apt-get purge r-base-core
+: 1689027091:4;sudo apt-get purge shotwell
+: 1689027115:0;espeak
+: 1689027292:0;sudo apt list --upgradable
+: 1689027298:1;sudo apt upgrade
+: 1689027630:1;sudo apt autopurge
+: 1689027701:0;sudo apt-get autoremove --purge
+: 1689027710:0;sudo rm -rf /var/lib/apt/lists/*
+: 1689027715:52;sudo apt-get update
+: 1689028417:0;sudo rm -rfv ~/.cache/thumbnails
+: 1689028709:0;logrotate
+: 1689056459:30;nvim .bashrc
+: 1689056491:2;sudo rmmod psmouse ; sudo modprobe psmouse
+: 1689027754:1;sudo du -h /var/log
+: 1689027796:0;cd ~/.cache/thumbnails/
+: 1689027799:0;du .
+: 1689027928:0;find /var/log -type f
+: 1689027936:0;sudo find /var/log -type f
+: 1689027947:0;find /var/log -type f -regex ".*\.gz$"
+: 1689027961:0;find /var/log -type f -regex ".*\.gz$" --delete
+: 1689027968:0;find /var/log -type f -regex ".*\.gz$" -delete
+: 1689027972:0;sudo find /var/log -type f -regex ".*\.gz$" -delete
+: 1689027984:0;cd /var/log
+: 1689027996:0;sud du -h .
+: 1689028000:0;du -h .
+: 1689028031:0;sudo du -h .
+: 1689028062:0;find /var/log -type f -regex ".*\.[0-9]$"
+: 1689028067:0;sudo find /var/log -type f -regex ".*\.[0-9]$"
+: 1689028194:4;vim /etc/logrotate.d
+: 1689028243:0;du -h syslog.1
+: 1689028256:0;du -h kern.log.1
+: 1689028264:0;du -h tallylog
+: 1689194959:0;cd /var/lib/yum/repos/x86_64/7/
+: 1689195038:1;apt list | grep openproject
+: 1689195054:5;sudo apt-get purge openproject
+: 1689195082:0;cd /etc/openproject
+: 1689195091:0;cd /etc/openproject/
+: 1689195095:0;sudo cd /etc/openproject/
+: 1689195206:0;trash openproject
+: 1689195210:0;sudo trash openproject
+: 1689195308:0;homebrew
+: 1689195310:0;linuxbrew
+: 1689195331:0;brew list
+: 1689195409:4;/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+: 1689195438:0;trash /home/linuxbrew
+: 1689195443:1;sudo ll
+: 1689195453:1;sudo trash /home/linuxbrew
+: 1689195459:0;nitter
+: 1689195647:0;cd Ê®ÉÅÊÉΩø
+: 1689195692:0;sudo cd Desktop
+: 1689195743:0;sudo trash nitter
+: 1689195758:16;sudo apt-get purge turboprint
+: 1689195826:8;vim .vuescan
+: 1689195921:0;kappa.exe
+: 1689195928:0;./kappa.exe
+: 1689195933:1;open kappa.exe
+: 1689196011:0;cd Templates
+: 1689196021:0;trash Templates
+: 1689196039:3;vim .Rhistory
+: 1689196051:0;cd R
+: 1689196060:0;trash R
+: 1689196078:0;trash .Rhistory
+: 1689196101:0;tree RStudio
+: 1689196105:2;vim dconf
+: 1689196120:0;cd RStudio
+: 1689196124:1;vim desktop.ini
+: 1689196132:0;trash RStudio
+: 1689196143:0;trash Skype
+: 1689196147:0;trash skypeforlinux
+: 1689196153:0;cd tox
+: 1689196163:0;tree avatars
+: 1689196179:0;trash tox
+: 1689196182:10;vim zoomus.conf
+: 1689196197:0;trash zoomus.conf
+: 1689196203:3;vim yakuakerc
+: 1689196238:0;trash yakuakerc
+: 1689196244:0;cd xm1
+: 1689196262:0;trash QtProject
+: 1689196271:1;trash QtProject.conf
+: 1689196294:0;trash Pinta
+: 1689196308:0;trash mpv
+: 1689196333:0;trash myuzi
+: 1689196361:0;trash rambox
+: 1689196368:1;trash vivaldi
+: 1689196440:0;trash microsoft-edge-beta
+: 1689196443:0;trash microsoft-edge-dev
+: 1689196460:0;cd Kite
+: 1689196473:0;trash Kite
+: 1689196480:0;cd JetBrains
+: 1689196485:0;trash JetBrains
+: 1689196500:0;trash GitHub\ Desktop
+: 1689196507:0;trash GitKraken
+: 1689196517:1;trash 0ad
+: 1689196554:0;trash Clementine
+: 1689196566:0;trash Mattermost
+: 1689196583:0;trash Atom
+: 1689196596:0;trash Hyper
+: 1689196689:0;trash Ferdi
+: 1689196723:0;cd Dharkael/
+: 1689196727:6;vim flameshot.ini
+: 1689196770:0;cd Min
+: 1689196786:0;trash scribus
+: 1689196864:0;trash Messenger\ for\ Desktop
+: 1689196869:0;cd TTK
+: 1689196874:0;trash TTK
+: 1689196884:0;cd tg
+: 1689196888:4;vim conf.py
+: 1689196922:0;cd nuclear
+: 1689196960:0;cd Hardcoded\ Software
+: 1689196973:0;cd Kitware
+: 1689196976:3;vim CMakeSetup.conf
+: 1689196986:0;cd gops
+: 1689196992:2;vim 70769
+: 1689197003:8;vim k3brc
+: 1689197015:3;vim karbonrc
+: 1689197041:0;cd exercism
+: 1689197045:6;vim user.json
+: 1689197056:0;trash exercism
+: 1689197072:0;cd BraveSoftware
+: 1689197081:1;trash BraveSoftware
+: 1689197107:0;cd All-in-One\ Messenger
+: 1689197117:0;trash All-in-One\ Messenger
+: 1689197143:0;trash browsh
+: 1689197149:0;trash spotify
+: 1689197197:0;cd unity3d
+: 1689197230:0;trash unity3d
+: 1689197239:0;trash AnanasAnalytics
+: 1689197251:0;cd Snorenotify
+: 1689197254:4;vim libsnore.conf
+: 1689197301:0;cd coc
+: 1689197367:0;trash coc
+: 1689197487:0;cd autostart
+: 1689197536:0;trash turboprint-monitor.desktop
+: 1689197541:0;cd autostart-scripts
+: 1689197548:0;trash turboprint-startmonitor
+: 1689197556:0;cd totem
+: 1689197560:2;vim state.ini
+: 1689197659:0;sudo apt autoremvoe
+: 1689197971:0;cd Ride-4.3
+: 1689197975:2;vim connections.json
+: 1689197980:3;vim hist.txt
+: 1689198006:2;vim .sudo_as_admin_successful
+: 1689198021:0;trash .oh-my-zsh
+: 1689198119:0;git branch checkout v0.8.1
+: 1689198129:0;git checkout v0.8.1
+: 1689198139:0;git switch remotes/origin/release-0.9
+: 1689198149:0;git pull
+: 1689198159:1;trash neovim
+: 1689198172:0;cd .nchat
+: 1689198204:0;trash .nchat
+: 1689198215:0;trash .rstudio-desktop
+: 1689198225:0;cd kona
+: 1689198236:0;kona
+: 1689198243:0;which kona
+: 1689198267:0;cd kappa
+: 1689198279:3;vim mydir/path-tilde-named.test
+: 1689198287:0;trash kappa
+: 1689198322:0;trash kappa.exe
+: 1689198328:0;cd .pki
+: 1689198340:0;trash .scribus
+: 1689198347:0;trash .turboprint
+: 1689198354:0;cd .purple
+: 1689198377:8;vim prefs.xml
+: 1689198412:0;trash gPodder
+: 1689198421:0;cd developer
+: 1689198440:0;cd .FBReader
+: 1689198444:2;vim system.xml
+: 1689198460:0;trash .FBReader
+: 1689198485:0;trash .eclipse
+: 1689198489:0;cd .var
+: 1689198885:0;flatpak run io.freetubeapp.FreeTube
+: 1689198894:31;flatpak install flathub io.freetubeapp.FreeTube
+: 1689203388:27;vim /usr/share/applications
+: 1689203426:20;vim ~/.local/share/applications
+: 1689199551:2;vim broken-symlink
+: 1689199588:0;ls /
+: 1689199605:0;ls -l /lib* /bin
+: 1689199618:0;ls -l
+: 1689199637:0;trash broken-symlink
+: 1689199653:0;cd .designer
+: 1689199663:11;vim gradients.xml
+: 1689199695:76;find . -xtype l
+: 1689199814:0;cd Gegen\ das\ Vergessen
+: 1689199823:2;vim login
+: 1689199830:0;mv login login.txt
+: 1689199839:0;cd Webseite
+: 1689199858:0;trash freetube-subscriptions-2023-07-12.db
+: 1689199958:0;cd WS\ 22
+: 1689199966:0;cd Unterlagen
+: 1689199981:0;mkdir Kurse
+: 1689199990:0;cp WS\ 22 Unterlagen/Kurse
+: 1689199999:0;cp WS\ 22 Unterlagen/Kurse/
+: 1689200005:1;cp -r WS\ 22 Unterlagen/Kurse/
+: 1689200010:0;cd Unterlagen/Kurse
+: 1689203220:3;sudo apt-get purge paraview
+: 1689203258:21;vim .cache/gnome-software/odrs/paraview.desktop.json
+: 1689203284:1;trash .cache/gnome-software/odrs/paraview.desktop.json
+: 1689203338:126;fd --hidden paraview
+: 1689236969:6;vim pages
+: 1689236997:9;vim pdf
+: 1689237022:0;cp pdf pdf.pdf
+: 1689237030:5;vim pdf.pdf
+: 1689237064:0;file pdf
+: 1689237094:0;open pdf.pdf
+: 1689237174:0;qpdf
+: 1689237192:3;evince pdf
+: 1689237210:0;gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=unencrypted.pdf -c .setpdfwrite -f pdf
+: 1689237233:5;ghostscript
+: 1689237316:21;sudo apt-get purge ghostscript
+: 1689237341:7;sudo apt-get install ghostscript
+: 1689237407:0;ghostscript -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=unencrypted.pdf -c .setpdfwrite -f pdf
+: 1689237411:0;ghostscript -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=unencrypted.pdf -c .setpdfwrite -f pdf.pdf
+: 1689237425:0;open unencrypted.pdf
+: 1689237482:0;ghostscript -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=unencrypted.pdf -c .setpdfwrite -f pdf.pdfsudo apt install pdfcrack
+: 1689237483:5;sudo apt install pdfcrack
+: 1689237501:0;pdfcrack -f pdf.pdf
+: 1689237560:0;pdfcrack --help
+: 1689237582:0;pdfcrack pdf.pdf
+: 1689237596:0;cp pdf.pdf this.pdf
+: 1689237600:0;pdfcrack this.pdf
+: 1689237702:0;hashcat -a 3 -m 10700 hash.txt -O
+: 1689237725:0;pdf2ps
+: 1689237735:0;pdf2ps this.pdf this.ps
+: 1689237946:0;pdfcrack pdf
+: 1689237950:0;pdfcrack -f pdf
+: 1689238075:6;sudo apt-get install john -y
+: 1689238108:0;john pdf
+: 1689238123:0;john pdf --format=Raw-MD5
+: 1689240037:0;sudo apt install paperwork-gtk paperwork-gtk-l10n-[your lang] paperwork-shell
+: 1689240042:19;sudo apt install paperwork-gtk paperwork-gtk-l10n-en paperwork-shell
+: 1689240334:9;sudo apt purge paperwork-gtk paperwork-gtk-l10n-en paperwork-shell
+: 1689240441:1;file pages
+: 1689240449:0;open pages
+: 1689240464:0;trash pages
+: 1689240467:0;trash pdf
+: 1689240470:0;trash pdf.pdf
+: 1689240475:0;trash this.*
+: 1689240480:0;trash unencrypted.pdf
+: 1689241732:2;sudo snap install anytype
+: 1689242924:9;snap install anytype_0.32.3_amd64.snap
+: 1689242973:0;rm anytype_0.32.3_amd64.snap
+: 1689243373:0;dpkg -i anytype_0.32.3_amd64.deb
+: 1689243375:23;sudo dpkg -i anytype_0.32.3_amd64.deb
+: 1689243523:1;sudo apt-get purge anytime
+: 1689243536:1;apt list --installed | rg anytime
+: 1689243543:0;dpkg --help
+: 1689243577:0;dpkg dpkg -l anytime
+: 1689243595:0;dpkg -l anytype
+: 1689243602:0;sudo dpkg -l anytype
+: 1689243621:0;sudo dpkg -l '*anytype*'
+: 1689243641:1;sudo dpkg -r anytype
+: 1689243651:1;sudo apt autoremove
+: 1689243655:1;sudo apt autoclean
+: 1689248184:0;xrandr -r s0
+: 1689248185:0;xrandr -r s
+: 1689254371:1;sudo apt-get uninstall neovim
+: 1689254379:1;sudo apt-get remove neovim
+: 1689254422:0;sudo apt-get remove nvim
+: 1689254427:1;snap remove nvim
+: 1689254431:1;snap remove neovim
+: 1689254447:0;\
+\
+$ sudo apt-get remove --auto-remove neovim \
+\
+
+: 1689254458:0;\
+\
+sudo apt-get remove --auto-remove neovim \
+\
+
+: 1689254499:0;treesitter-cli
+: 1689254519:0;which neovim
+: 1689254557:3;lvim cd .config/nvim
+: 1689254566:3;lvim cd .config/neovim
+: 1689254592:0;cp nvim ~/Desktop
+: 1689254598:0;cp -r nvim ~/Desktop
+: 1689251513:12;\
+\
+sudo snap install raindrop\
+\
+
+: 1689251826:12;\
+\
+sudo snap remove raindrop\
+\
+
+: 1689261672:0;flatpak -list
+: 1689261715:1;xrandr -s 0
+: 1689269253:0;d.conf
+: 1689269256:0;dconf
+: 1689269492:56;vim .bashrc
+: 1689269782:0;https://extensions.gnome.org/extension/1486/extensions-sync/
+: 1689269810:16;vim ~/.zsh_alias
+: 1689269831:3;vim ~/.zsh
+: 1689269839:46;vim ~/.zshrc
+: 1689270058:0;source ~/.zsh_alias
+: 1689270144:0;gcm asdka
+: 1689270146:0;gcm asdka akldsja
+: 1689270161:0;cd ./local/share/gnome-shell/extensions/
+: 1689270169:0;cd local/share/gnome-shell/extensions/
+: 1689270188:0;cd .local/share/gnome-shell/extensions/
+: 1689270303:0;chmod +x backup_gnome_extensions.sh
+: 1689270315:0;cd extensions
+: 1689270321:0;trash extensions
+: 1689270337:11;lvim change_mac_address.sh
+: 1689270467:0;code --list-extensions | xargs -L 1 echo code --install-extension
+: 1689270485:1;codium --list-extensions | xargs -L 1 echo codium --install-extension
+: 1689270674:0;chmod +x backup-vscodium-extensions.sh
+: 1689270677:0;./backup_gnome_extensions.sh
+: 1689270691:0;cd ~/Desktop
+: 1689270695:0;trash gnome-extensions
+: 1689270697:0;cd codium-backup
+: 1689270704:1;lvim ext
+: 1689270864:18;lvim vscode-backup.sh
+: 1689270907:0;cp vscode-backup.sh ~/bashscripts
+: 1689271016:0;cd Code
+: 1689271127:0;trash vs
+: 1689271133:0;trash vscode-backup.sh
+: 1689271595:3;codium --list-extensions | xargs -L 1 echo codium --install-extension > ext\
+
+: 1689271603:0;trash ext
+: 1689271673:0;c d-
+: 1689271737:0;cd ~/.config/VSCodium/User
+: 1689271775:0;cd Backups
+: 1689271884:0;cd ~/Desktop/codium-backup
+: 1689272008:18;lvim backup-vscodium-extensions.sh
+: 1689272028:0;./backup-vscodium-extensions.sh
+: 1689272040:0;trash ~/Desktop/codium-backup
+: 1689273710:9;firefox -P
+: 1689274095:1;lvim backup-gn
+: 1689274101:4;lvim backup_gnome_extensions.sh
+: 1689274107:0;chmod +x backup-firefox-snap.sh
+: 1689274150:9;lvim backup-firefox-snap.sh
+: 1689274160:6;./backup-firefox-snap.sh
+: 1689274172:0;cd ~/Desktop/firefox-backup
+: 1689274186:0;trash ~/Desktop/firefox-backup
+: 1689274192:0;trash ext*
+: 1689278498:2;fd .mozilla
+: 1689278504:2;fdh .mozilla
+: 1689278509:0;fdh -d .mozilla
+: 1689278514:0;fd --help
+: 1689278538:3;fdh -t d ".mozilla"
+: 1689278558:0;cd snap/firefox/common/.mozilla/firefox/
+: 1689278568:0;cd sewa5x2m.oldharddrive
+: 1689274254:1;firefox -migration
+: 1689274334:1;firefox -new-tab www.google.com
+: 1689325294:6;fdh userchrome.css
+: 1689325466:1;fdh -f d .mozilla
+: 1689325484:0;tldr fd
+: 1689325489:15;man fd
+: 1689325509:9;fdh -t d .mozilla
+: 1689325581:0;mkdir chrome
+: 1689331821:0;ls | grep css
+: 1689331825:0;ll | grep css
+: 1689336173:0;sudo wget -O /usr/share/keyrings/element-io-archive-keyring.gpg https://packages.element.io/debian/element-io-archive-keyring.gpg
+: 1689336180:0;[200~echo "deb [signed-by=/usr/share/keyrings/element-io-archive-keyring.gpg] https://packages.element.io/debian/ default main" | sudo tee /etc/apt/sources.list.d/element-io.list~
+: 1689336183:0;echo "deb [signed-by=/usr/share/keyrings/element-io-archive-keyring.gpg] https://packages.element.io/debian/ default main" | sudo tee /etc/apt/sources.list.d/element-io.list
+: 1689336186:8;sudo apt update
+: 1689336273:36;sudo apt install element-desktop
+: 1689338081:8;sudo apt purge element-desktop
+: 1689338140:1;sudo apt install -y wget apt-transport-https
+: 1689340528:0;cd .local/share/appimagepool
+: 1689340535:0;cd applications
+: 1689340707:0;trash cd ~/Downloads
+: 1689340784:0;trash appimagekit_6594ad637a7b6fa0a62e7be685f7e61b-all-in-one.desktop*
+: 1689428182:0;r
+: 1689428182:1;nnn
+: 1689509550:0;aptclean
+: 1689509864:6;sudo apt-get purge fsearch
+: 1689529032:0;mkdir github
+: 1689529039:2;git clone https://github.com/zedeus/nitter.git
+: 1689529044:0;cd nitter
+: 1689529068:311;docker build -t nitter:latest .
+: 1689529437:23;lvim docker-compose.yml
+: 1689529473:0;dc up -d
+: 1689529527:0;trash nitter
+: 1689625252:28;flatpak install flathub com.brave.Browser
+: 1689772904:0;restet-resolution
+: 1689860911:2;sudo systemctl mask apt-news.service
+: 1689860916:2;sudo systemctl mask esm-cache.service
+: 1689861470:2;sudo vim /etc/apt/sources.list.d/element-io.list
+: 1689861542:10;sudo vim /etc/apt/sources.list.d
+: 1689861102:0;sudo pro config set apt_news=false
+: 1689861168:2;systemctl mask --now ubuntu-advantage
+: 1689861178:0;mv /etc/apt/apt.conf.d/20apt-esm-hook.conf /etc/apt/apt.conf.d/20apt-esm-hook.conf.bak
+: 1689861181:0;sudo mv /etc/apt/apt.conf.d/20apt-esm-hook.conf /etc/apt/apt.conf.d/20apt-esm-hook.conf.bak
+: 1689861288:15;sudo vim /etc/apt/sources.list
+: 1689861315:9;gedit /etc/apt/sources.list
+: 1689861378:0;gksudo gedit /etc/apt/sources.list
+: 1689933737:21;flatpak update
+: 1689946131:2;curl -sSf https://raw.githubusercontent.com/lasantosr/intelli-shell/main/install.sh | bash
+: 1689933997:81;flatpak install flathub org.bleachbit.BleachBit
+: 1689935415:0;cd .local/share/vocal
+: 1689935476:0;trash .
+: 1689946156:4;intelli-shell fetch
+: 1689946785:0;cd .
+: 1689946787:0;clear
+: 1689946839:1;docker stats --no-stream
+: 1690044249:0;cd Python
+: 1690044258:10;nvim cancer.py
+: 1690044270:36;lvim cancer.py
+: 1690044608:0;echo $INTELLI_LABEL_HOTKEY
+: 1690044618:0;echo "$INTELLI_LABEL_HOTKEY"
+: 1690044738:0;env | grep INTELLI
+: 1690051711:108;cargo install --locked navi
+: 1690051985:13;navi
+: 1690052647:3;lvim ~/.zsh
+: 1690052748:13;lvim keybindings.sh
+: 1690052866:0;alsjdasalsjdas
+: 1690052868:0;alsjdas
+: 1690053578:0;printenv | grep INTELLI
+: 1690053793:0;askjdsaljdas
+: 1690054269:0;asl√∂kas√∂dsa√∂
+: 1690055514:0;cd Desktop/
+: 1690056050:5;lvim .zshenv
+: 1690056102:0;sl -la /tmp
+: 1690056941:0;:
+: 1690056969:2;lvim ~/zshrc
+: 1690057504:0;echo $widgets[autosuggest-accept]
+: 1690057744:0;docker export
+: 1690118021:0;atop
+: 1690131882:2;vim visudo
+: 1690131889:2;sudo vim visudo
+: 1690131995:6;select-editor
+: 1690132009:0;echo $EDITOR
+: 1690132030:5;ed
+: 1690132048:6;crontab -e
+: 1690132057:7;sudo visudo
+: 1690132077:0;texlive
+: 1690132085:3;sudo apt install texlive
+: 1690132477:9;sudo tlmgr -gui\
+
+: 1690132499:0;which tlmgr
+: 1690132539:16;sudo /usr/bin/tlmgr --gui
+: 1690131269:0;latexmk
+: 1690131282:0;vim /home/user/.miktex/texmfs/data/miktex/log/latexmk.log\
+
+: 1690132756:0;sudo apt-get remove texlive*
+: 1690132759:10;sudo apt-get remove texlive
+: 1690132773:1;sudo apt list | grep texlive
+: 1690132786:0;sudo apt-get purge texlive*
+: 1690132793:0;sudo apt-get purge texlive-*
+: 1690133579:5;lvim .bashrc
+: 1690134285:0;cd Desktop/LaTeXTemplates_masters-doctoral-thesis_v2.5
+: 1690134901:3;lvim c
+: 1690134956:15;lvim main.tex
+: 1690136377:10;sudo apt-get remove miktex
+: 1690136468:0;echo "deb http://miktex.org/download/ubuntu bionic universe" | sudo tee /etc/apt/sources.list.d/miktex.list
+: 1690136502:0;echo "deb http://miktex.org/download/ubuntu jammy universe" | sudo tee /etc/apt/sources.list.d/miktex.list
+: 1690136536:8;sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys D6BC243565B2087BC3F897C9277A7293F59E4889
+: 1690136558:12;sudo apt-get install miktex
+: 1690136705:6;miktexsetup finish
+: 1690136720:0;initexmf --set-config-value [MPM]AutoInstall=1
+: 1690137498:0;dustypomerleau
+: 1690137502:0;ext install dustypomerleau.tol
+: 1690137943:1;git clone https://github.com/thuehn/DALaTe_TU-Berlin.git
+: 1690311135:2;sudo bluetoothctl info CA:A1:7B:3F:B7:22
+: 1690310978:2;sudo bluetoothctl info mac_address
+: 1690310991:0;bluetoothctl trust mac_address
+: 1690311013:10;sudo nano /etc/bluetooth/main.conf
+: 1690311079:0;bluetoothctl trust CA:A1:7B:3F:B7:22
+: 1690311238:4;sudo apt-get install bluetooth
+: 1690311320:0;pulseaudio start
+: 1690311330:0;pulseaudio --start
+: 1690311419:3;sudo systemctl status bluetooth.service
+: 1690311442:0;sudo service bluetooth restart
+: 1690311494:8;sudo vim /etc/bluetooth/main.conf
+: 1690311524:1;sudo apt install bluez
+: 1690311529:4;sudo systemctl enable bluetooth.service
+: 1690311535:0;sudo systemctl start bluetooth.service
+: 1690311615:6;sudo apt-get install pavucontrol
+: 1690311642:2;sudo apt install pulseaudio pulseaudio-module-bluetooth
+: 1690325500:4;flatpak install flathub io.github.seadve.Mousai
+: 1690325638:9;flatpak remove flathub io.github.seadve.Mousai
+: 1690374183:0;cd Down
+: 1690374188:8;./nvim-linux64/bin/nvim
+: 1690374250:1;sudo apt remove nvim
+: 1690374258:0;sudo snap remove nvim
+: 1690374265:0;sudo snap remove neovim
+: 1690374270:0;snap lst
+: 1690374356:0;rm ~/.local/share/nvim
+: 1690374434:0;cd /usr/local/bin
+: 1690374448:3;vim nvim
+: 1690374456:0;ll | grep nvim
+: 1690374472:16;./nvim
+: 1690374530:0;cp .config/nvim ~/Desktop
+: 1690374540:13;cp -r .config/nvim ~/Desktop
+: 1690374559:0;cp -r .config/nvim ~/Documents
+: 1690374573:0;rm .config/nvim
+: 1690374583:0;rm /usr/local/bin/nvim
+: 1690374590:0;sudo rm /usr/local/bin/nvim;
+: 1690374696:0;cd Applications
+: 1690374715:0;cd /usr/local/share/applications/
+: 1690374720:0;trash nvim.desktop
+: 1690374723:0;trash paraview.desktop
+: 1690374739:0;rm nvim.desktop
+: 1690374742:0;sudo rm nvim.desktop
+: 1690374748:0;sudo rm paraview.desktop
+: 1690374780:14;flatpak install flathub io.neovim.nvim
+: 1690374832:22;flatpak run io.neovim.nvim
+: 1690374863:8;flatpak remove flathub io.neovim.nvim
+: 1690374885:16;git clone https://github.com/neovim/neovim.git
+: 1690374910:80;make CMAKE_BUILD_TYPE=RelWithDebInfo
+: 1690375005:0;sudo make install
+: 1690375039:1;git fetch
+: 1690375064:0;cd ~/Downloads/nvim-linux64
+: 1690375083:0;cp ~/Documents/nvim .
+: 1690375093:1;cp -r ~/Documents/nvim .
+: 1690375113:0;cp nvim ./.config
+: 1690375120:0;cp -r nvim ./.config
+: 1690375126:0;trash nvim
+: 1690375133:0;trash -d nvim
+: 1690375140:0;rm nvim
+: 1690375168:0;trash -r nvim
+: 1690375172:0;sudo trash -r nvim
+: 1690375189:0;which nvim
+: 1690375191:0;c
+: 1690375198:0;trash -r nvim-linux64
+: 1690375208:0;trash -r nv*
+: 1690375317:0;sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+: 1690375443:76;nvim .config/nvim/init.vim
+: 1690375555:5;cp config.lua ~/Documents
+: 1690375632:0;git branch -a
+: 1690375645:0;git checkout remotes/origin/release-0.9
+: 1690375655:0;git checkout -b remotes/origin/release-0.9
+: 1690375733:0;remotes/origin/release-0.9
+: 1690375746:0;[200~remotes/origin/release-0.9[201~
+: 1690375755:0;bash ~/.local/share/lunarvim/lvim/utils/installer/uninstall.sh
+: 1690375762:93;bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+: 1690375882:0;cd .config/lvim/ll
+: 1690375888:0;cd .config/lvim/
+: 1690375913:1;cp ~/Documents/config.lua .
+: 1690380365:14;lvim hfx_mionetto_usa.py
+: 1690380451:29;lvim ~/.config/alacritty/alacritty.yml
+: 1690380635:0;lvkm
+: 1690388145:1;open .
+: 1690388185:6;tar -xf Zotero-6.0.26_linux-x86_64.tar.bz2
+: 1690388268:30;wget -qO- https://raw.githubusercontent.com/retorquere/zotero-deb/master/install.sh | sudo bash\
+sudo apt update\
+sudo apt install zotero
+: 1690388460:37;wget -qO- https://raw.githubusercontent.com/retorquere/zotero-deb/master/install.sh | sudo bash\
+sudo apt update\
+sudo apt install jurism\
+
+: 1690393340:6;LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')\
+curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/latest/download/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"\
+tar xf lazygit.tar.gz lazygit\
+sudo install lazygit /usr/local/bin
+: 1690393357:0;cd github
+: 1690393359:0;cd neovim
+: 1690393363:31;lazygit
+: 1690456185:14;sudo apt install --reinstall pulseaudio-module-bluetooth\
+pactl unload-module module-bluetooth-discover\
+pactl load-module module-bluetooth-discover
+: 1690456342:12;sudo apt-get install blueman
+: 1690456364:0;blueman-manager &
+: 1690456494:1;sudo apt install pavucontrol
+: 1690456513:0;pavucontrol &
+: 1690456738:0;pulseaudio -k
+: 1690457000:2;vim /etc/bluetooth/audio.conf
+: 1690457075:17;vim /etc/bluetooth/main.conf
+: 1690457104:0;sudo systemctl restart bluetooth
+: 1690457161:0;sudo -H pactl load-module module-bluetooth-discover
+: 1690457165:0;sudo sudo -H pactl load-module module-bluetooth-discover
+: 1690457179:23;sudo nano /etc/pulse/default.pa
+: 1690457450:1;sudo apt-get install pulseaudio-module-bluetooth
+: 1690457835:0;bluetoothctl list
+: 1690457879:7;sudo apt-get install --reinstall pulseaudio
+: 1690458291:22;sudo vim /etc/pulse/default.pa
+: 1690458316:3;sudo vim /usr/bin/start-pulseaudio-x11
+: 1690458331:0;pulseaudio -k\
+pulseaudio --start\
+sudo service bluetooth restart
+: 1690461765:0;apt install texlive-luatex
+: 1690461767:29;sudo apt install texlive-luatex
+: 1690462096:0;sudo apt-get find loaotfload
+: 1690462102:0;sudo apt find loaotfload
+: 1690462107:0;loaotfload
+: 1690462117:0;luaotfload
+: 1690462146:1;apt-file find luaotfload.sty
+: 1690469012:0;latexmk --version
+: 1690469099:0;mkdir repo
+: 1690469104:5;git clone https://github.com/benbrastmckie/.config.git
+: 1690469119:0;mkdir benbrastmckie
+: 1690469145:3;cp -r .config benbrastmckie
+: 1690469156:0;trash .config
+: 1690469232:1;sudo cp -R .config/fonts/RobotoMono/ /usr/share/fonts
+: 1690469313:2;mkdir -p ~/.local/share/fonts\
+cd ~/.local/share/fonts && curl -fLO https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/DroidSansMono/DroidSansMNerdFont-Regular.otf
+: 1690469340:3;fc-cache -f -v
+: 1690469412:0;which lvim
+: 1690469470:0;source source
+: 1690469567:0;git config -l
+: 1690471740:11;sudo snap install universal-ctags
+: 1690471836:6;sudo apt install exuberant-ctags
+: 1690471978:18;nvim hfx_mionetto_usa.py
+: 1690472227:0;cd Bachelorarbeit
+: 1690472517:8;nvim ~/.config/nvim/init.vim
+: 1690472577:44;nvim DiplomarbeitLaTex.tex
+: 1690473084:50;lvim DiplomarbeitLaTex.tex
+: 1690492171:0;touch init.lua
+: 1690492423:0;mv init.vim ~/
+: 1690492454:0;cd benbrastmckie/.config/nvim
+: 1690492508:0;cp lua ~/.config/nvim
+: 1690492527:0;cd ~/.config/nvim
+: 1690493361:0;ll ~/.local/share/fonts | grep Sans
+: 1690493560:0;cp -r after ~/.config/nvim
+: 1690493570:4;cp -r lua ~/.config/nvim
+: 1690493582:0;cp -r minimal ~/.config/nvim
+: 1690493594:0;cp -r snippets/ ~/.config/nvim
+: 1690493604:0;cp -r templates ~/.config/nvim
+: 1690494529:0;cp HackNerdFontMono-Regular.ttf ~/.local/share/fonts
+: 1690494538:0;trash HackNerdFontMono-Regular.ttf
+: 1690494548:0;cp HackNerdFontPropo-Regular.ttf ~/.local/share/fonts
+: 1690494560:0;trash HackNerdFontPropo-Regular.ttf
+: 1690494570:0;cp HackNerdFont-Regular.ttf ~/.local/share/fonts
+: 1690494575:0;trash HackNerdFont-Regular.ttf
+: 1690494640:0;ll ~/.local/share/fonts | grep Hack
+: 1690495579:47;alacritty -vvv
+: 1690497470:5;pip3 install mitzasql
+: 1690497480:4;mitzasql
+: 1690534581:0;cd ~/repo/benbrastmckie
+: 1690534589:0;cd nvim
+: 1690535668:0;ag Lazy
+: 1690535675:0;ag Packer
+: 1690535694:0;as Mason
+: 1690534397:0;ag xsel
+: 1690543348:0;fc-list | grep -i ubuntu
+: 1690543385:0;fc-list | grep -i Nerd Regular
+: 1690543964:0;fc-cache
+: 1690544238:0;fc-list | grep -i Nerd
+: 1690539072:0;cd repo/benbrastmckie/.config/nvim
+: 1690539074:0;ag tabstop
+: 1690539118:0;ag 8
+: 1690539127:0;ag spaces
+: 1690539137:9627;vim user/options.lua
+: 1690549529:11;nvim packer_install.lua
+: 1690552558:0;\
+grep " install " /var/log/dpkg.log
+: 1690552581:29;\
+dpkg-query -l
+: 1690552611:2;dpkg -l
+: 1690568323:0;:ToggleTerm
+: 1690569082:6;sudo apt remove fontforge
+: 1690569613:4;sudo docker run hello-world\
+
+: 1690569628:0;docker images -rm hello-world
+: 1690569649:0;docker images -rm 9c7a54a9a43c
+: 1690569670:0;docker images rm 9c7a54a9a43c
+: 1690569677:0;docker image rm 9c7a54a9a43c
+: 1690569694:0;docker image rm -f 9c7a54a9a43c
+: 1690569700:0;docker volumes ls
+: 1690569703:0;docker volume ls
+: 1690569727:0;docker volume rm nitter_nitter-redis
+: 1690569736:0;docker volume rm docker-leantime_db_data
+: 1690569754:0;docker volume rm 40702af9d20d621c4bfc6b626c04676c9d768c6996ebaee8e16756e57467fac8
+: 1690569933:22;nvim nvim.sh
+: 1690555185:0;gnome-extensions list --enabled
+: 1690557027:3;npm -g ls --depth=0
+: 1690557052:0;npm list
+: 1690557069:0;npm list -g
+: 1690557406:89;nvim ~/.zsh_alias
+: 1690557515:0;mkdircd setup
+: 1690557589:2;sudo apt install -y git curl
+: 1690557678:0;sh apt.sh
+: 1690558048:0;pip
+: 1690558090:1;sudo apt list | grep pip
+: 1690558157:1;sudo apt install zip
+: 1690558162:0;sudo apt install unzip
+: 1690558232:5;python3
+: 1690558432:5;sudo sh apt.sh
+: 1690558792:0;df
+: 1690558794:0;df -h
+: 1690558804:0;free
+: 1690558807:0;free -m
+: 1690563167:82;lvim list-pip-packages.sh
+: 1690563503:91;nvim rust.sh
+: 1690563633:0;mv rust.sh cargo.sh
+: 1690563635:84;nvim cargo.sh
+: 1690563809:1;cd setup
+: 1690565976:136;nvim pip.sh
+: 1690566256:1;nvim apt
+: 1690567520:35;nvim snap.sh
+: 1690567559:82;nvim apt.sh
+: 1690568077:3;sudo apt install dupeguru
+: 1690568083:1217;nvim office.sh
+: 1690577155:2;git clone https://github.com/SecurityWeekly/vulhub-lab.git
+: 1690577160:0;cd ~/bashscripts/setup
+: 1690577168:0;cd vulhub-lab
+: 1690577307:0;cd win10
+: 1690577333:1;claim startup.sh
+: 1690577337:0;./startup.sh
+: 1690577355:0;cd /dev
+: 1690577403:5;vim Vagrantfile
+: 1690579190:0;mkdircd windowsdocker
+: 1690579252:1;sudo chmod +x startup.sh
+: 1690579457:0;modprobe kvm_intel
+: 1690579593:0;sudo docker build -it ubuntukvm:latest -f Dockerfile .
+: 1690579596:2;sudo docker build -t ubuntukvm:latest -f Dockerfile .
+: 1690579701:1;git clone https://github.com/sivaramsk/docker-kvm.git
+: 1690579705:0;cd docker-kvm
+: 1690579712:36;docker run --privileged -p 3022:3022 -e PORTMAP="-net user,hostfwd=tcp::3389-:3389 -redir tcp:3022::22" -e RAM_SIZE=2048 -e IMAGE_PATH=/ubuntu.img -v /home/siva/ubuntu.img:/ubuntu.img sivaramsk/docker-kvm:0.1
+: 1690579829:0;mkdircd try
+: 1690579988:0;docker start .
+: 1690580003:0;docker image ls
+: 1690580023:1;docker run 0d920dd9d954
+: 1690580076:0;docker run -d --privileged -v /var/run/libvirt:/var/run/libvirt --name kvm jess/kvm
+: 1690580146:0;git clone https://github.com/joshkunz/qemu-docker.git
+: 1690580153:0;cd qemu-docker
+: 1690580425:0;yamllint docker-compose.yml
+: 1690580562:5;nvim docker-compose.yml
+: 1690580665:1;git clone https://github.com/ms-jpq/windows-in-docker.git
+: 1690580672:0;cd windowsdocker
+: 1690580876:86;sudo apt install -- libvirt-daemon-system
+: 1690581141:3;vim _config.yml
+: 1690581152:3;vim .mypy.ini
+: 1690581162:0;cd fs
+: 1690581590:0;git restore Dockerfile
+: 1690582456:1;docker-compose donw
+: 1690582513:1;cp ~/Downloads/virtio-win-0.1.229.iso ./fs/data
+: 1690582593:0;journalctl -u libvirtd.service
+: 1690583754:2;docker-compose up -d --build
+: 1690583767:2;vim docker-compose.yml
+: 1690584055:145;docker build .
+: 1690584216:0;git status
+: 1690584218:0;git diff
+: 1690584347:5;systemctl restart libvirtd\
+systemctl enable libvirtd
+: 1690584367:5;docker-compose restart
+: 1690584403:29;vim Dockerfile
+: 1690584434:256;docker exec -it windows-in-docker_libvirt_1 /bin/bash
+: 1690584724:2;docker run -it -d --privileged=true windows-in-docker_libvirt_1 bash
+: 1690584748:1;docker build --tag="windows-docker" .
+: 1690584761:6;docker run -it -d --privileged=true windows-docker /bin/bash
+: 1690584774:5;docker run -it -d --privileged=true windows-docker bash
+: 1690584796:3;docker-compose up
+: 1690584803:0;docker-compose up -d
+: 1690584814:0;docker exec -it -d --privileged=true windows-docker bash
+: 1690584843:0;docker exec -it -d --privileged=true windows-docker bash -c "systemctl start libvirt"
+: 1690584932:0;docker exec -d --privileged=true windows-docker bash -c "systemctl restart libvirtd"
+: 1690584962:0;docker exec -d --privileged=true windows-in-docker_libvirt_1 bash -c "systemctl restart libvirtd"
+: 1690584980:0;docker exec -d --privileged=true windows-in-docker_libvirt_1 bash -c "systemctl enable libvirtd"
+: 1690585092:1;docker exec -it -d --privileged=true windows-in-docker_libvirt_1 /bin/bash
+: 1690585098:33;docker exec -it --privileged=true windows-in-docker_libvirt_1 /bin/bash
+: 1690585198:6;docker-compose down
+: 1690585266:17;vim startup.sh
+: 1690585291:1;trash docker-kvm
+: 1690585299:0;trash qemu-docker/trash try
+: 1690585304:0;trash try
+: 1690585310:0;trash qemu-docker
+: 1690585312:0;trash vulhub-lab
+: 1690585319:0;trash windowsdocker
+: 1690549624:0;cp packer_install.lua ./lua/user
+: 1690549627:0;trash packer_install.lua
+: 1690550376:0;apt-mark showmanual
+: 1690550423:1;apt list --installed | grep -v automatic
+: 1690550494:1;apt-mark showmanual | sort | grep -v -F -f <(apt show $(apt-mark showmanual) 2> /dev/null | grep -e ^Depends -e ^Pre-Depends | sed 's/^Depends: //; s/^Pre-Depends: //; s/(.*)//g; s/:any//g' | tr -d ',|' | tr ' ' '\n' | grep -v ^$ | sort -u)
+: 1690550577:0;graphviz
+: 1690550710:0;chmod +x list-apt-packages.sh
+: 1690550713:0;./list-apt-packages.sh
+: 1690550780:0;grep "apt-get install" /var/log/apt/history.log
+: 1690550834:4;nvim backup-firefox-snap.sh
+: 1690550904:0;sh list-apt-packages.sh
+: 1690550943:1;comm -23 <(aptitude search '~i !~M' -F '%p' | sed "s/ *$//" | sort -u) <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^Package: //p' | sort -u)
+: 1690550951:1;comm -23 <(apt-mark showmanual | sort -u) <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^Package: //p' | sort -u)
+: 1690551008:1;\
+Just the code\
+\
+aptitude search '~i !~M' -F '%p' --disable-columns | sort -u > currentlyinstalled.txt\
+wget -qO - http://mirror.pnl.gov/releases/precise/ubuntu-12.04.3-desktop-amd64.manifest | cut -f1 | sort -u > defaultinstalled.txt\
+comm -23 currentlyinstalled.txt defaultinstalled.txt\
+
+: 1690551050:9;nvim list-apt-packages.sh
+: 1690551083:0;comm -13 \\
+  <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^Package: //p' | sort) \\
+  <(comm -23 \\
+    <(dpkg-query -W -f='${Package}\n' | sed 1d | sort) \\
+    <(apt-mark showauto | sort) \\
+  )`\
+
+: 1690551088:0;comm -13 \\
+  <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^Package: //p' | sort) \\
+  <(comm -23 \\
+    <(dpkg-query -W -f='${Package}\n' | sed 1d | sort) \\
+    <(apt-mark showauto | sort) \\
+  )`\
+;\
+
+: 1690551176:0;snap list | grep -v Publisher | grep -v canonical | awk '{print $1}' | tr '\n' ' '
+: 1690551234:0;\
+21\
+\
+I'd like to get a list of packages installed manually by snap and be able to find out whether a foobar package was installed manually by system installer.\
+\
+For example:\
+\
+$ snap list\
+Name                 Version                     Rev   Tracking         Publisher     Notes\
+canonical-livepatch  9.5.5                       95    latest/stable    canonical‚ÉºÉ≥    -\
+core                 16-2.45.2                   9665  latest/stable    canonical‚ÉºÉ≥    core\
+core18               20200707                    1880  latest/stable    canonical‚ÉºÉ≥    base\
+discord              0.0.10                      109   latest/stable    snapcrafters  -\
+gnome-3-28-1804      3.28.0-17-gde3d74c.de3d74c  128   latest/stable    canonical‚ÉºÉ≥    -\
+gnome-3-34-1804      0+git.3009fc7               36    latest/stable/‚Ä¶  canonical‚ÉºÉ≥    -\
+gtk-common-themes    0.1-36-gc75f853             1506  latest/stable/‚Ä¶  canonical‚ÉºÉ≥    -\
+ripgrep              12.1.0                      9     latest/stable    icey          classic\
+simplenote           1.20.0                      368   latest/stable    snapcrafters  -\
+slack                4.7.0                       25    latest/stable    slack‚ÉºÉ≥        classic\
+snap-store           3.36.0-80-g208fd61          467   latest/stable/‚Ä¶  canonical‚ÉºÉ≥    -\
+snapd                2.45.2                      8542  latest/stable    canonical‚ÉºÉ≥    snapd\
+zoom-client          5.1.422789.0705             92    latest/stable    ogra          -\
+\
+Here, core, core18 were not manually installed by me (at least not explicitly), so my try was:\
+\
+$ 
+: 1690551247:1;snap list | grep -v Publisher | grep -v canonical | awk '{print $1}' | tr '\n' ' '\
+discord ripgrep simplenote slack zoom-client
+: 1690551277:0;snap list | grep -v Publisher | grep -v canonical | awk '{print $1}' | tr '\n' ' '\
+
+: 1690551299:0;snap list | grep -v Publisher | grep -v canonical | awk '{print $1}'
+: 1690551314:17;nvim list-manual-snap-packages.sh
+: 1690551335:0;chmod +x list-manual-snap-packages.sh
+: 1690551342:0;ls -l /snap/bin
+: 1690551356:0;ls -l /var/lib/snapd/snaps
+: 1690551483:0;pipdeptree | grep -P '^\w+'
+: 1690551507:1;pip freeze
+: 1690551531:1;pip3 install pipdeptree
+: 1690551543:4;python3 -m pip install --upgrade pip
+: 1690551602:1;pip list --user
+: 1690551682:10;nvim list-pip-packages.sh
+: 1690551697:0;cargo list
+: 1690551700:0;cargo --list
+: 1690551729:0;cargo install --list
+: 1690551739:0;ls ~/.cargo/bin/
+: 1690551766:18;nvim list-cargo-packages.sh
+: 1690551813:0;cat $CARGO_HOME/.crates2.json | jq -r '.installs | keys[] | split(" ")[0]'
+: 1690551833:0;cat $CARGO_HOME/.crates2.json | jq .
+: 1690552248:0;flatpak-list
+: 1690552259:0;flatpak list --app
+: 1690552269:9;nvim list-manual-flatpak-packages.sh
+: 1690552289:0;chmod +x list-manual-flatpak-packages.sh
+: 1690552320:0;npm list -g --depth=0
+: 1690552333:0;node
+: 1690552337:0;nodejs
+: 1690552339:0;java list
+: 1690552352:0;topgrade
+: 1690552473:219;cargo install topgrade
+: 1690552795:0;topgrade --help
+: 1690552870:87;cargo install cargo-update`cargo install cargo-update`
+: 1690553079:0;dcd
+: 1690553138:6;docker stop mysql_leantime
+: 1690553151:1;docker stop 1db03bd20ddb
+: 1690553153:0;dps
+: 1690553161:0;docker ls
+: 1690553163:0;docker ps
+: 1690553206:0;docker images ls
+: 1690553223:0;docker image rm 8e1dcbb1818a
+: 1690553294:0;docker image rm -f 8e1dcbb1818a
+: 1690553309:6;docker image rm 0353b90213d9
+: 1690553371:12;docker system prune
+: 1690553390:0;docker container ls
+: 1690553393:0;docker images
+: 1690553419:23;docker system prune -a
+: 1690553818:0;topgrade -n
+: 1690553914:0;ls ~/.local/share/gnome-shell/extensions/
+: 1690553939:1;gnome-extensions list
+: 1690554014:0;gsettings get org.gnome.shell enabled-extensions
+: 1690554156:17;nvim list-gnome-shell-extensions.sh
+: 1690554176:0;sh list-gnome-shell-extensions.sh
+: 1690554206:0;cat gnome-shell-extensions-all-list.txt
+: 1690554211:0;cat gnome-shell-extensions-enabled-list.txt
+: 1690554251:32126;bash -v
+: 1690586403:0;which ls
+: 1690587220:11;nvim .zsh_alias
+: 1690588950:1;docker run
+: 1690588954:0;docke run
+: 1690589108:1;curl https://raw.githubusercontent.com/kaplanelad/shellfirm/main/shell-plugins/shellfirm.plugin.zsh -o ~/.shellfirm-plugin.sh\
+echo 'source ~/.shellfirm-plugin.sh' >> ~/.zshrc
+: 1690589134:0;kubectl delete ns
+: 1690589144:0;git reset --hard
+: 1690589341:0;dpkg-query -W --showformat='${Installed-Size} ${Package} ${Status}\n' | grep -v deinstall | sort -n | awk '{print $1" "$2}'
+: 1690589367:0;dpkg-query -W --showformat='${Installed-Size} ${Package} ${Status}\n' | grep -v deinstall | sort -n | awk '{print $2}'
+: 1690589608:0;dck
+: 1690589658:0;gem
+: 1690589661:1;gem list
+: 1690589816:6;zap update all
+: 1690626232:0;zap udpate
+: 1690626246:0;zap clena
+: 1690626255:0;zap install
+: 1690626259:16;zap update
+: 1690626327:1;claim ~/.zshrc
+: 1690626355:0;shellfirm
+: 1690626360:0;shellfirm-pre-command
+: 1690626367:0;shellfirm config challenge
+: 1690632939:0;which npm
+: 1690639536:33;nvim Desktop/Programming/crawl_grapes.py
+: 1690627395:0;zap clean
+: 1690627852:1;lvm
+: 1690628029:3;lvim +PackerSync
+: 1690629573:13;nvim +PackerSync
+: 1690629766:0;tree lua
+: 1690629781:25;nvim user/reload.lua
+: 1690629817:48;nvim ./user/reload.lua
+: 1690629883:2;nvim lua/user/reload.lua
+: 1690632885:0;npm
+: 1690638779:13;nvim init.lua
+: 1690648728:0;udo apt-get install libxkbcommon-x11-0
+: 1690648734:4;sudo apt-get install libxkbcommon-x11-0
+: 1690648756:5;sudo apt install libxcb-xinerama0
+: 1690648788:2;sudo apt install ibxcb-util1
+: 1690649271:0;gsettings reset org.gnome.mutter.keybindings toggle-tiled-left\
+gsettings reset org.gnome.mutter.keybindings toggle-tiled-right\
+
+: 1690649290:0;gsettings reset org.gnome.mutter.keybindings toggle-tiled-up
+: 1690648598:7;pip3 list
+: 1690649447:2;pip3 list | grep pix2
+: 1690649457:1;pip3 uninstall pip2text
+: 1690649479:9;pip3 uninstall pix2text
+: 1690640261:0;cd .config/nvim
+: 1690643556:9;nvim init.lua;
+: 1690646455:13;nvim lua/user/vimtex.lua
+: 1690646505:0;pip3 install pix2tex[gui]
+: 1690646651:0;python -m pix2tex.api.run
+: 1690646656:0;python2 -m pix2tex.api.run
+: 1690646662:0;python3 -m pix2tex.api.run
+: 1690646748:0;pip3 install -U pix2tex[api]
+: 1690646887:0;python3 -m pix2tex[api]
+: 1690646895:12;python3 -m pix2tex
+: 1690646910:0;pix2text
+: 1690646966:0;pix2tex[gui]\
+
+: 1690646971:4;pix2tex
+: 1690646987:0;cd ~/bashscripts
+: 1690647001:81;nvim ocr-latex.sh
+: 1690647086:0;chmod +x
+: 1690647129:0;chmod +x *
+: 1690647131:11;./ocr-latex.sh
+: 1690647221:0;sh ~/Downloads/qt-unified-linux-x64-4.6.0-online.run
+: 1690647236:0;. ~/Downloads/qt-unified-linux-x64-4.6.0-online.run
+: 1690647326:0;sudo apt-get --reinstall install libqt5dbus5 libqt5widgets5 libqt5network5 libqt5gui5 libqt5core5a libdouble-conversion1 libxcb-xinerama0
+: 1690647473:1;sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
+: 1690647544:0;sudo apt-get install qt5-default
+: 1690647558:0;cd ~/Downloads
+: 1690647559:123;wget https://download.qt.io/new_archive/qt/5.7/5.7.0/qt-opensource-linux-x64-5.7.0.run
+: 1690647719:0;chmod +x qt-opensource-linux-x64-5.7.0.run ./qt-opensource-linux-x64-5.7.0.run
+: 1690647730:45;./qt-opensource-linux-x64-5.7.0.run
+: 1690647784:0;sudo apt-get install libfontconfig1
+: 1690647794:0;apt-get install build-essential
+: 1690647986:0;ldd /usr/lib/qt/plugins/platforms/libqxcb.so
+: 1690648000:1;sudo apt-get install libglu1-mesa-dev -y
+: 1690648015:0;r: sudo apt-get install qt5-default
+: 1690648022:0;sudo apt-get install qt5-default;
+: 1690648033:1;sudo apt-get install mesa-common-dev
+: 1690648043:7;sudo update-mime-database /usr/share/mime
+: 1690648093:0;sudo apt-get install libxcb
+: 1690648152:2;pip3 uninstall opencv-python
+: 1690648162:3;pip3 install opencv-python-headless\
+
+: 1690648174:1;pip3 install cv2
+: 1690648200:0;sudo apt-get install libxcb-xinerama0
+: 1690648213:3;sudo apt-get install --reinstall libxcb-xinerama0
+: 1690648237:13;sudo apt-get install '^libxcb.*-dev' libx11-xcb-dev libglu1-mesa-dev libxrender-dev libxi-dev libxkbcommon-dev libxkbcommon-x11-dev
+: 1690648287:0;export DISPLAY=:0
+: 1690666992:1;apt list --installed | wc -l
+: 1690667006:2;neofetch
+: 1690649881:151;latexocr
+: 1690650048:0;man latexocr
+: 1690650222:0;flameshot -gui
+: 1690667109:0;flatpak list | wc -l
+: 1690667122:0;snap list | wc -l;
+: 1690667187:0;dpkg list
+: 1690667213:0;dpkg --list | wc -l
+: 1690667219:1;apt list | wc -l
+: 1690668299:25;snap remove pick-colour-picker
+: 1690722486:0;picom --blur-method dual_kawase --blur-strength 7
+: 1690722913:13;git clone https://github.com/yilozt/mutter-rounded\
+cd ./mutter-rounded/ubuntu\
+./package.sh
+: 1690723043:33;./package.sh
+: 1690723150:17;nvim package.sh
+: 1690723179:1;sudo apt install libmutter-10-0 mutter-common
+: 1690723253:1;git clone https://github.com/yilozt/mutter-rounded-setting\
+cd ./mutter-rounded-setting\
+./install
+: 1690723276:12;yarn
+: 1690723295:3;curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+: 1690723308:7;yarn webpack
+: 1690723479:0;./install
+: 1690723503:0;cd dist
+: 1690723507:1;vim mu
+: 1690723512:2;vim mutter_settings.js
+: 1690723852:0;mutter_setting
+: 1690723943:0;cd mutter-rounded
+: 1690723944:0;√∂√∂
+: 1690723949:19;vim README.md
+: 1690723996:0;dpkg --list | grep mutter
+: 1690724088:0;gsettings get org.gnome.mutter round-corners-radius
+: 1690724094:0;gsettings set org.gnome.mutter round-corners-radius
+: 1690724106:0;dpkg -r mutter*
+: 1690724128:0;sudo apt-get purge libmutter-10-0 mutter-common
+: 1690724295:8;sudo apt-get install libmutter-10-0 mutter-common
+: 1690724324:0;shutdown --reboot
+: 1690724339:0;sudo shutdown -r
+: 1690724355:0;sudo shutdown -r now
+: 1690724424:6;sudo apt-get install mutter
+: 1690724463:7;startx
+: 1690724499:0;sudo systemctl get-default
+: 1690724518:0;shutdown -r now
+: 1690724568:1;sudo apt-get --fix-broken install
+: 1690724591:7;sudo apt-get update && sudo apt-get upgrade
+: 1690724671:0;pwd
+: 1690724700:0;dcong dump / > ~/Documents/dconf-settings.ini
+: 1690724706:0;dconf dump / > ~/Documents/dconf-settings.ini
+: 1690724721:57;sudo apt install --reinstall ubuntu-desktop
+: 1690724787:0;sudo reboot now
+: 1690725182:5;sudo apt install gnome-tweaks
+: 1690725202:6;sudo apt install gnome-shell-extension-manager
+: 1690725603:6;sudo apt install chrome-gnome-shell
+: 1690725843:0;gtk2-engines-murrine
+: 1690726007:6;cd mutter-rounded/ll
+: 1690726017:0;cd mutter-rounded-setting
+: 1690726021:1;gjs dist/mutter_settings.js
+: 1690726060:0;trash mutter*
+: 1690726378:0;cd Documents
+: 1690726382:0;dconf load / < dconf-settings.ini
+: 1690726549:0;QT_QPA_PLATFORM=wayland
+: 1690726864:0;snap list | grep flameshot
+: 1690726876:0;snap list
+: 1690726889:0;flatpak list
+: 1690726900:0;flamehsot
+: 1690726903:0;which flameshot
+: 1690726908:5;sudo apt remove flameshot
+: 1690726920:15;flatpak install flameshot
+: 1690726965:0;flameshot
+: 1690726978:0;flatpak list | grep flameshot
+: 1690726985:1;flatpak run org.flameshot.Flameshot
+: 1690727001:7;flatpak remove flameshot
+: 1690727018:4;sudo apt-get install flameshot
+: 1690727149:10;flameshot gui
+: 1690727192:0;flameshot gui -platform=wayland
+: 1690727202:0;flameshot gui --platform=wayland
+: 1690727216:0;flameshot gui--platform=wayland
+: 1690727224:0;flameshot --platform=wayland gui
+: 1690727268:0;loginctl
+: 1690727279:1;loginctl show-session 2 -p Type
+: 1690727289:0;echo $XDG_SESSION_TYPE
+: 1690727378:2;vim /etc/gdm/custom.conf
+: 1690732871:3;vim
+: 1690732913:12;top
+: 1690732926:0;q
+: 1690732930:1;sudo apt install htoop
+: 1690732934:8;sudo apt install htop
+: 1690734912:32;flatpak install flathub org.gottcode.FocusWriter
+: 1690735102:18;flatpak install flathub xyz.rescribe.rescribe
+: 1690735351:8;flatpak remove focuswriter
+: 1690735523:8;flatpak remove rescribe
+: 1690736353:0;snap list | grep chrome
+: 1690736358:0;snap list | grep chromium
+: 1690736410:11;sudo apt remove google-chrome-stable
+: 1690736563:0;sudo apt remove google-chrome-*
+: 1690736567:3;sudo apt remove google-chrome-
+: 1690736574:7;nvim ~/.zshrc
+: 1690736596:155;snap remove chromium
+: 1690737759:28;sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+: 1690738031:21;sudo snap install fbreader
+: 1690740783:9;npm i eslint -g
+: 1690741168:0;cd Desktop/Programming
+: 1690741178:0;cd bash
+: 1690741265:7;./package_managers.sh
+: 1690741276:13;lvim package_managers.sh
+: 1690741293:0;aptitude list
+: 1690741300:0;aptitude --list
+: 1690741642:35;lvim ~/Desktop/Programming/hfx_mionetto_usa.py
+: 1690742776:0;unzip DeACSM_0.0.16.zip
+: 1690741794:7;nvim ~/Desktop/Programming/crawl_hfx_shop.py
+: 1690742575:27;flatpak install chrome
+: 1690745826:0;fc-list | grep -i Fira
+: 1690760886:0;printenv
+: 1690816060:4;sudo apt remove todo.txt
+: 1690816142:1;pip3 remove topydo
+: 1690813782:2;time ls -R1
+: 1690813939:0;mkdir -pv this
+: 1690813951:0;trash this
+: 1690814005:0;explain mkdir -pv
+: 1690814012:0;explain "mkdir -pv"
+: 1690816156:3;pip3 uninstall topydo
+: 1690816234:1;sudo apt remove todotxt-cli
+: 1690816237:1;apt list | grep todo
+: 1690816252:1;apt list --installed | grep todo
+: 1690817088:0;cd .config/lvim
+: 1690821179:2;ncdu
+: 1690821768:2;lvim init.lua
+: 1690822806:0;lvim config.lua
+: 1690836720:0;bindkey -l
+: 1690836749:0;bindkey
+: 1690836854:0;bindkey|grep case
+: 1690836868:0;zle -al
+: 1690836983:0;vicmd
+: 1690838163:5;lvim bashscripts/install-composer.sh
+: 1690838999:0;.
+: 1690839316:1064;lvim .editorconfig
+: 1690841934:4;lvim .config/nvim/
+: 1690841949:71;lvim .config/nvm/
+: 1690842027:0;mkdir nvm
+: 1690842029:0;cd nvm
+: 1690842049:3;lvim default_apackages
+: 1690900014:9;curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+: 1690900074:0;ln -sf ~/.local/kitty.app/bin/kitty ~/.local/kitty.app/bin/kitten ~/.local/bin/
+: 1690900078:0;cp ~/.local/kitty.app/share/applications/kitty.desktop ~/.local/share/applications/
+: 1690900081:0;cp ~/.local/kitty.app/share/applications/kitty-open.desktop ~/.local/share/applications/
+: 1690900085:0;sed -i "s|Icon=kitty|Icon=/home/$USER/.local/kitty.app/share/icons/hicolor/256x256/apps/kitty.png|g" ~/.local/share/applications/kitty*.desktop
+: 1690900088:0;sed -i "s|Exec=kitty|Exec=/home/$USER/.local/kitty.app/bin/kitty|g" ~/.local/share/applications/kitty*.desktop
+: 1690901812:1;NKC="${HOME}/.nord-kitty.conf"\
+curl https://raw.githubusercontent.com/m8mble/nord-kitty/master/nord-kitty.conf > "${NKC}"\
+echo "include ${NKC}" >> "${HOME}/.config/kitty/kitty.conf"
+: 1690900035:0;cdl
+: 1690901893:0;printf "\x1b[38;2;255;100;0mTRUECOLOR\x1b[0m\n"
+: 1690902804:12;ranger
+: 1690905815:83;sudo apt install luarocks
+: 1690905954:0;time nvim -i c -c 'q'
+: 1690905959:0;time nvim -i NONE -c 'q'\
+
+: 1690906006:0;time lvim -i NONE -c 'q'\
+
+: 1690901993:0;[[ $COLORTERM =~ ^(truecolor|24bit)$ ]]
+: 1690902002:0;echo $COLORTERM
+: 1690902020:0;tput colors
+: 1690902062:0;if (( $(tput colors 2>/dev/null) > 256 )); then\
+    echo "What a beautiful rainbowtput colors\
+else\
+    echo "Back to the 80's VGA era anyone?"\
+fi\
+\
+\
+\
+\
+bash
+: 1690902064:50;bash
+: 1690911876:5;lvim ~/.config/lvim/config.lua
+: 1690983092:0;cd .config/kitty
+: 1690983094:0;git rev-parse --show-toplevel
+: 1690995558:57;nvim .config/kitty/kitty.conf
+: 1690996369:1;gt
+: 1690996382:22;nvim .gitconfig
+: 1690996409:5;nvim .gitignore
+: 1691006270:0;fg firefox
+: 1691006286:0;fg %1
+: 1691006457:0;stl
+: 1691006464:1;xclip
+: 1691006476:1;xclip | echo
+: 1691006647:1;apt-get list --installed
+: 1691006652:0;apt-get list
+: 1691006667:3;sudo apt list --installed | grep mutter-rounded
+: 1691006677:1;sudo apt list --installed | grep mutter
+: 1691099631:1;lvim .gitignore
+: 1691099877:10;lvim ~/.config
+: 1691099965:0;cd windows-in-docker
+: 1691100521:0;ag
+: 1691100523:0;fd
+: 1691100530:3;lvim README.md
+: 1691101106:0;cd .config
+: 1691101117:0;tree windows-in-docker
+: 1691159776:0;geiorod
+: 1691159832:0;fc
+: 1691159834:0;gs
+: 1691170700:0;systemctl restart libvirtd\
+systemctl enable bluetooth.service
+: 1691170728:0;bluetoothctl
+: 1691187009:0;nvim .zshrc
+: 1691187476:0;nvim .config/nvim/
+: 1691230670:0;sudo snap refresh
+: 1691233837:0;git clone --depth 1 https://github.com/wbthomason/packer.nvim\\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+: 1691233853:0;\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+: 1691234169:0;nvim .config/nvim/lua/user/packer_install.lua
+: 1691234310:0;nvim .config/nvim/lua/user/plugins.lua
+: 1691234317:0;lvim .config/nvim/lua/user/plugins.lua
+: 1691234357:0;cd ~/repo
+: 1691234359:0;cd benbrastmckie
+: 1691234368:0;cd .config/nvim/lua/user
+: 1691234408:0;cp user ~/.config/nvim/lua
+: 1691234416:0;ll ~/.config/nvim/lua
+: 1691234423:0;tree ~/.config/nvim/lua
+: 1691234449:0;lvim ~/.config/nvim/lua/user/plugins.lua
+: 1691234922:0;lvim ~/.config/nvim/init.lua
+: 1691235136:0;nvim ~/.config/nvim/init.lua
+: 1691235340:0;nvim +PackerInstall
+: 1691235492:0;require("mason").setup()\
+require("mason-null-ls").setup({\
+    handlers = {},\
+})
+: 1691235503:0;cd .config/nvim/
+: 1691235507:0;cd pack
+: 1691235516:0;cd lua
+: 1691236115:0;u
+: 1691236612:0;nvim +PackerCompile
+: 1691236992:0;cd lvim
+: 1691237118:0;touch .config/lvim/lua/core/keymaps.lua
+: 1691237501:0;touch .config/lvim/lua/themes/init.lua
+: 1691237633:0;touch .config/lvim/lua/plugins/vimtex.lua
+: 1691240453:0;lim
+: 1691240636:0;lvim kitty/kitty.conf
+: 1691240695:0;ls -al
+: 1691240825:0;nvim ~/.config/alacritty/alacritty.yml
+: 1691241375:0;lvim ~/Desktop/nordic.yaml
+: 1691241816:0;htop
+: 1691250850:0;lvim .zshrc
+: 1691257155:0;kvu
+: 1691259048:0;vim ~/.config/lvim/config.lua
+: 1691262571:0;ls
+: 1691262582:0;lvim ~/.config/alacritty/alacritty.yml;
+: 1691352314:0;lvim bashscripts/changemacaddr
+: 1691352341:0;lvim bashscripts/changemacaddrE
+: 1691353355:0;cd bashscripts
+: 1691353370:0;trash $'\001'l\{D@@$'\202'G$'\003'@8
+: 1691353384:0;rm $'\001'l\{D@@$'\202'G$'\003'@8
+: 1691353392:0;\rm $'\001'l\{D@@$'\202'G$'\003'@8
+: 1691353404:0;lvim setup.sh
+: 1691354066:0;bonsai
+: 1691354068:0;lvim .zsh_alias
+: 1691650443:0;bindkey -L
+: 1691657027:0;source ${ZDOTDIR:-$HOME}/.zshrc
+: 1691914265:0;zal
+: 1691914291:0;explain mkdir -p
+: 1691914302:0;explain "mkdir -p"
+: 1691914363:0;function color() {\
+ local fgc bgc vals seq0\
+\
+ printf "Color escapes are %s\n" '\e[${value};...;${value}m'\
+ printf "Values 30..37 are \e[33mforeground colors\e[m\n"\
+ printf "Values 40..47 are \e[43mbackground colors\e[m\n"\
+ printf "Value  1 gives a  \e[1mbold-faced look\e[m\n\n"\
+\
+ \
+ for fgc in {30..37}; do\
+ \
+ for bgc in {40..47}; do\
+ fgc=${fgc#37} \
+ bgc=${bgc#40} \
+\
+ vals="${fgc:+$fgc;}${bgc}"\
+ vals=${vals%%;}\
+\
+ seq0="${vals:+\e[${vals}m}"\
+ printf "  %-9s" "${seq0:-(default)}"\
+ printf " ${seq0}TEXT\e[m"\
+ printf " \e[${vals:+${vals+$vals;}}1mBOLD\e[m"\
+ done\
+ echo\
+ echo\
+ done\
+}
+: 1691914364:0;coor
+: 1691914366:0;color
+: 1691914522:0;fz() {\
+ local line\
+ line=$(rg "$1" | fzf) &&\
+ $EDITOR $(cut -d':' -f1 <<<"$line") +$(cut -d':' -f2 <<<"$line")\
+}
+: 1691914528:0;fz COmmand
+: 1691914548:0;fz Gegen
+: 1691914780:0;clipcopy
+: 1691915193:0;function man() {\
+ env LESS_TERMCAP_mb=$(printf "\e[1;31m") LESS_TERMCAP_md=$(printf "\e[1;36m") LESS_TERMCAP_me=$(printf "\e[0m") LESS_TERMCAP_se=$(printf "\e[0m") LESS_TERMCAP_so=$(printf "\e[1;44;33m") LESS_TERMCAP_ue=$(printf "\e[0m") LESS_TERMCAP_us=$(printf "\e[1;32m") PAGER="${commands[less]:-$PAGER}" _NROFF_U=1 PATH="$HOME/bin:$PATH" man "$@"\
+}
+: 1691915196:0;man ff
+: 1691915198:0;man fzf
+: 1691915216:0;command man fzf
+: 1691915507:0;lvim .config/lazygit/
+: 1692045362:0;env
+: 1692045379:0;cd siva
+: 1692045388:0;open ubuntu.img
+: 1692045395:0;cd user
+: 1692045410:0;fd linuxbrew
+: 1692045415:0;fd .
+: 1692045419:0;fd . linuxbrew
+: 1692045426:0;fd brew
+: 1692045624:0;sudo apt-get install build-essential
+: 1692045631:0;sudo apt install git -y
+: 1692045636:0;/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+: 1692045716:0;(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> ~/.zshrc
+: 1692045721:0;cat .zshrc
+: 1692045727:0;eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+: 1692045729:0;brew
+: 1692045734:0;brew install dasht
+: 1692046125:0;brew doctor
+: 1692046363:0;dasht-docsets-install php
+: 1692047287:0;chmod +x zeal-cli
+: 1692047370:0;pip3 install zeal-cli
+: 1692047404:0;zeal-cli install php
+: 1692047418:0;zeal-cli install
+: 1692047423:0;zeal-cli install python
+: 1692047822:0;lvim /home/user/.local/lib/python3.10/site-packages/zeal_cli/zeal/docset.py
+: 1692047836:0;vim /home/user/.local/lib/python3.10/site-packages/zeal_cli/zeal/docset.py
+: 1692047889:0;zeal-cli search php
+: 1692047921:0;zeal-cli search PHP array
+: 1692047971:0;zeal-cli list PHP
+: 1692047986:0;zeal-cli list
+: 1692048003:0;zeal-cli search
+: 1692048057:0;zeal-cli install Symfony
+: 1692048090:0;zeal-cli search PHP Symfony
+: 1692048150:0;zeal-cli search array_map
+: 1692048172:0;zeal-cli search PHP "array_map"
+: 1692048184:0;zeal-cli search PHP array_map
+: 1692048201:0;zeal-cli search PHP
+: 1692048229:0;zeal-cli search Symfony User
+: 1692048232:0;zeal-cli search Symfony
+: 1692048271:0;zeal-cli config
+: 1692048282:0;zeal-cli config view
+: 1692048312:0;pip3 remove zeal-cli
+: 1692048324:0;pip3 uninstall zeal-cli
+: 1692048341:0;trash zeal-cli
+: 1692048490:0;git clone https://gitlab.com/ivan-cukic/zeal-lynx-cli.git
+: 1692048547:0;sqlite3
+: 1692048586:0;pip3 argparse
+: 1692048598:0;pip3 install argparse
+: 1692048623:0;pip3 install sqlite3
+: 1692048634:0;pip3 install pathlib
+: 1692048650:0;pip3 install BeautifulSoup
+: 1692048673:0;pip3 install beautifulSoup4
+: 1692048703:0;cd repo/zeal-lynx-cli
+: 1692048737:0;sudo apt-get install lynx -y
+: 1692048759:0;./zeal-cli
+: 1692048762:0;./zeal-cli php
+: 1692048767:0;./zeal-cli PHP
+: 1692048780:0;./zeal-cli PHP array
+: 1692048812:0;./zeal-cli PHP | fzf --height=50% --preview='zeal-cli --lynx-dump=true cpp {}' | xargs -d '\n' zeal-cli PHP
+: 1692048829:0;./zeal-cli PHP | fzf --height=50% --preview='zeal-cli --lynx-dump=true cpp {}' | xargs -d '\n' ./zeal-cli PHP
+: 1692048852:0;zeal-cli PHP | fzf --height=50% --preview='zeal-cli --lynx-dump=true cpp {}' | xargs -d '\n' zeal-cli PHP
+: 1692048908:0;zeal-cli PHP array_map
+: 1692048924:0;zeal-cli PHP "array_map"
+: 1692048999:0;zeal-cli cpp | fzf --height=50% --preview='zeal-cli --lynx-dump=true cpp {}' | xargs -d '\n' zeal-cli cpp\
+
+: 1692049030:0;zeal-cli PHP | fzf --height=50% --preview='zeal-cli --lynx-dump=true PHP {}' | xargs -d '\n' zeal-cli PHP\
+
+: 1692049795:0;zeal
+: 1692049893:0;zeal-cli Symfony
+: 1692049905:0;zeal-cli Symfony | fzf
+: 1692049986:0;zeal-cli Symfony | fzf --height=50% --preview='zeal-cli --lynx-dump=true Symfony {}' | xargs -d '\n' zeal-cli Symfony
+: 1692050029:0;trash ~/.local/bin/zeal-cli
+: 1692050032:0;tl
+: 1692050244:0;dasht \_
+: 1692051440:0;dasht \_ PHP | fzf
+: 1692051533:0;dasht array PHP
+: 1692051554:0;dasht array_map PHP
+: 1692051603:0;dasht \_ PHP | fzf --height=50% --preview='dasht {} PHP'
+: 1692051669:0;dasht \_ PHP | fzf --height=50% --preview 'dasht {} PHP'
+: 1692051781:0;dasht \_ PHP | fzf | xargs -I {} echo {}
+: 1692051800:0;dasht \_ PHP | fzf | xargs -I {} awk '{print $1}'
+: 1692051814:0;dasht \_ PHP | fzf | xargs -I {} awk '{print $1}' {}
+: 1692051842:0;dasht \_ PHP | fzf | awk '{print $1}'
+: 1692051877:0;dasht \_ PHP | fzf --height=50% --preview 'dasht $(awk '{print $1}' {}) PHP'
+: 1692051925:0;dasht \_ PHP | fzf --height=50% --preview 'awk '{print $1}' | xargs -I {} dasht {} PHP'
+: 1692051937:0;dasht \_ PHP | fzf --height=50% --preview "awk '{print $1}' | xargs -I {} dasht {} PHP"
+: 1692051984:0;dasht \_ PHP | fzf --height=50% --preview "awk '{print $1}' | dasht {} PHP"
+: 1692052013:0;dasht \_ PHP | fzf --height=50% --preview "dasht {} PHP"
+: 1692052321:0;dasht \_ PHP | fzf --height=50% --preview "dashthelp"
+: 1692052470:0;dasht install Symfony
+: 1692052511:0;dasht-docsets-install Symfony
+: 1692052523:0;dasht \_ Symfony
+: 1692052557:0;dasht \_ Symfony | fzf
+: 1692052575:0;dasht User Symfony
+: 1692052776:0;chmod +x dashthelp
+: 1692052785:0;./dashthelp "array_map slkajdlksa lajlkdsajda"
+: 1692052850:0;shellcheck dashthelp
+: 1692052932:0;./dashthelp "array_map aslkdjalksj asldjlkds"
+: 1692052955:0;lvim dashthelp
+: 1692052966:0;cp dashthelp ~/.local/bin
+: 1692052971:0;dasht \_ PHP | fzf --height=50% --preview "dashthelp {}"
+: 1692052992:0;dasht \_ PHP | fzf --height=50% --preview "echo {}"
+: 1692053273:0;dasht \_ PHP | awk '{print $1}' | fzf --height=50% --preview "echo {}"
+: 1692053292:0;dasht \_ PHP | awk '{print $1}' | fzf --height=50% --preview "dasht {} PHP"
+: 1692053388:0;dasht-query-line "array_map"
+: 1692053406:0;dasht-query-line array
+: 1692054100:0;function ffdash() {\
+ dasht-query-line $@ | perl -0777 -pe 's/name = (.*?)\ntype = (.*?)\nfrom = (.*?)\nurl = (.*?)\n/ $4 | $1 | $3 | $3\n\n/g' | column -ts'|' | fzf --no-sort --with-nth=2.. --bind 'enter:execute(w3m {1})+accept'\
+}
+: 1692054104:0;ffdash
+: 1692133408:0;dasht \_ php | fzf
+: 1692133437:0;dasht \_ php | fzf | awk '{print $1}'
+: 1692133888:0;rg . -n | fzf --preview "cut -d":" -f1 <<< {} | xargs cat"
+: 1692133906:0;rg . -n | fzf --preview-"cut -d":" -f1 <<< {} | xargs cat"
+: 1692133965:0;dasht \_ php | fzf --preview "dasht {}" <<< {} | awk '{print $1}'"\
+\
+array\
+
+: 1692133980:0;dasht \_ php | fzf --preview "dasht {} php" <<< {} | awk '{print $1}'"\
+\
+array\
+\
+
+: 1692134023:0;dasht \_ php | fzf --preview "dasht {} php"
+: 1692134068:0;dasht \_ php | awk '{print $1}' | fzf
+: 1692134086:0;dasht \_ php | awk '{print $1}' | fzf --preview "dasht {} php"
+: 1692134320:0;dasht \_ php | awk '{print $1}' | fzf --preview "dasht '{}' php"
+: 1692134360:0;dasht --help
+: 1692134363:0;dasht
+: 1692134372:0;dashthelp
+: 1692134690:0;dasht-docsets-install lua
+: 1692134815:0;dasht \_ php | awk '{print $1}'
+: 1692134850:0;dasht \_ php
+: 1692135159:0;,,
+: 1692135163:0;cd zeal-lynx-cli
+: 1692135165:0;lynx
+: 1692135188:0;cp zeal-cli ~/.local/bin
+: 1692135194:0;zeal-cli pho
+: 1692135197:0;zeal-cli php
+: 1692135204:0;zeal-cli PHP
+: 1692135213:0;zeal-cli PHP | fzf
+: 1692135240:0;zeal-cli PHP | fzf --height=50% --preview='zeal-cli --lynx-dump=true PHP {}' | xargs -d '\n' zeal-cli PHP
+: 1692203615:0;zeal-cli
+: 1692203657:0;zeal-cli dpp | fzf --height=50% --preview='zeal-cli --lynx-dump=true cpp {}' [zeal-cli PHP | fzf --height=50% --preview='zeal-cli --lynx-dump=true cpp {}' | xargs -d '\n' zeal-cli cpp
+: 1692203666:0;zeal-cli cpp | fzf --height=50% --preview='zeal-cli --lynx-dump=true cpp {}' [zeal-cli PHP | fzf --height=50% --preview='zeal-cli --lynx-dump=true cpp {}' | xargs -d '\n' zeal-cli cpp
+: 1692203694:0;zeal-cli cpp | fzf --height=50% --preview='zeal-cli --lynx-dump=true cpp {}' | xargs -d '\n' zeal-cli cpp
+: 1692204072:0;dasht \_ PHP | fzf --height=50% --preview='zeal-cli --lynx-dump=true cpp {}' [~
+: 1692204083:0;dasht \_ PHP
+: 1692204101:0;dasht \_ PHP | fzf -preview
+: 1692204115:0;dasht \_ PHP | fzf -preview 'dasht {} PHP'
+: 1692204125:0;dasht \_ PHP | fzf --preview 'dasht {} PHP'
+: 1692264892:0;alias | grep
+: 1692265099:0;echo '' | fzf --preview 'man {q}'
+: 1692265135:0;echo "" | fzf --print-query --preview 'echo "a\nb\nc\nd" | awk {q}'
+: 1692265401:0;sudo apt-get list
+: 1692265513:0;change_folder() {\
+ CHOSEN=$(fd '.' -d 4 -H -t d $DIR|fzf --cycle --height=95% --preview="exa -T {}" --reverse)\
+ [ -z $CHOSEN ] && return 0 || cd "$CHOSEN" && [ $(ls|wc -l) -le 60 ] && ls\
+}
+: 1692265517:0;change_folder
+: 1692265543:0;funcs() {\
+ print -z $(functions "$@")\
+}
+: 1692265544:0;funcs
+: 1692265558:0;ali() {\
+ print -z $(alias "$@")\
+}
+: 1692265559:0;ali
+: 1692265577:0;..='cd ../' ...='cd ../../' ....='cd ../../../' .....='cd ../../../../' ac='sudo apt autoremove -y; sudo apt autoclean -y' agh='ag -u' alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '''s/^s*[0-9]+s*//;s/[;&|]s*alert$//''')"' apt='sudo apt' brc='brew cleanup' bri='brew install' brl='brew list' brr='brew uninstall' bru='brew upgrade' c=clear cd=__enhancd::cd cd1='cd ..' cd2='cd ../../' cd3='cd ../../../' cd4='cd ../../../../' cd5='cd ../../../../../' change_mac_address=./bashscripts/change_mac_address.sh chownmm='sudo chown -R mircomalik:mircomalik .' chownww='sudo chown -R www-data:www-data .' composer=/usr/local/bin/composer cp='cp -i' df='df -h' e='$EDITOR' egrep='egrep --color=auto' fd=fdfind fdh='fd --hidden --no-ignore' fgrep='fgrep --color=auto' free='free -m' fsh-alias=fast-theme ga='git add' gau='git add -u' gb='git branch' gc='git clone' gcm='git commit -m' gco='git checkout' gcob='git checkout -b' gcs='git commit -S -m' gd='git difftool' gdc='git difftool --cached' gf='git fetch' gfp='git fetch; git pull' gg='git graph' ggg='git graphgpg' gm='git merge' gp='git push' gpr='gh pr create' gr='git rebase -i' grep='grep --color=auto' grs='git restore --staged' gs='git status -sb' gt='git tag' gu='git reset @ -- ' gx='git reset --hard @' intelli-shell=''/home/user/.local/share/intelli-shell/bin/intelli-shell'' kt='pkill telegram' l='ls -CF' la='ls -A' lg=lazygit ll='ls -alF' ls='ls --color=auto' mkdir='mkdir -p' mv='mv -i' nv=nvim reset-resolution='xrandr -s 0' restart-mouse='sudo rmmod psmouse ; sudo modprobe psmouse' rm=trash sd='sudo shutdown -h now' se='sudo $EDITOR' sysd='sudo systemctl disable' syse='sudo systemctl enable' sysr='sudo systemctl restart' syss='systemctl status' systa='sudo systemctl start' systo='sudo systemctl stop' tvpn='~/bashscripts/toggle-vpn.sh' ug='sudo apt update -y;sudo apt upgrade -y' vimdiff='nvim -d --cmd ''':lua vim.g.noplugins=1'' vs=codium which-command=whence z='zshz 2>&1'
+: 1692289203:0;vim userChrome.css
+: 1692289237:0;nvim userChrome.css
+: 1692348411:0;lvim chrome/userChrome.css
+: 1692348417:0;vim chrome/userChrome.css
+: 1692349246:0;cd -
+: 1692349269:0;cd bookmarkbackups
+: 1692352304:0;history | cut -d' ' -f1 | sort | uniq -c | sort -nr | head\
+\
+
+: 1692354692:0;cd Desktop
+: 1692354696:0;function gi() { curl -sLw n https://www.toptal.com/developers/gitignore/api/$@ >> .gitignore;}\
+
+: 1692354698:0;gi php
+: 1692354719:0;gi java
+: 1692354733:0;git symfony
+: 1692354738:0;gi symfony
+: 1692354741:0;vim .gitignore
+: 1692354802:0;trash .gitignore
+: 1692367947:0;cp chrome ~/Desktop
+: 1692367955:0;cp -r chrome ~/Desktop
+: 1692367959:0;l.
+: 1692367961:0;trash *
+: 1692368041:0;cd repo
+: 1692368049:0;git clone https://github.com/andreasgrafen/cascade
+: 1692368062:0;cd cascade
+: 1692368107:0;cp chrome /snap/firefox/common/.mozilla/firefox/sewa5x2m.oldharddrive
+: 1692368118:0;cp -r chrome /snap/firefox/common/.mozilla/firefox/sewa5x2m.oldharddrive
+: 1692368139:0;cp -r chrome ~/snap/firefox/common/.mozilla/firefox/sewa5x2m.oldharddrive
+: 1692368155:0;cd snap
+: 1692368174:0;cd snap/firefox/common/.mozilla/firefox/sewa5x2m.oldharddrive
+: 1692368177:0;cd chrome
+: 1692368209:0;lvim userChrome.css
+: 1692368212:0;tree
+: 1692368228:0;cd includes
+: 1692368234:0;vim cascade-config.css
+: 1692379375:0;cd Music/Music/.
+: 1692379397:0;cd Mutter\ songs
+: 1692382205:0;cd Music/Mutter\ songs
+: 1692386100:0;youtube-dl --verbose
+: 1692386137:0;./dl_list.sh
+: 1692973398:0;◊É∞◊¶
+: 1692978304:0;setopt
+: 1693042969:0;cd Downloads
+: 1693042973:0;zrc
+: 1693043142:0;cd Bodyweight
+: 1693043148:0;cd ..
+: 1693043319:0;history
+: 1693043515:0;alert
+: 1693069257:0;nvim
+: 1693069270:0;nvim .config/nvim/init.lua
+: 1693078703:0;restart-mouse
+: 1693242710:0;ug
+: 1693477508:0;ac
+: 1693477512:0;trash-list
+: 1693477516:0;trash-empty
+: 1693486162:0;explain latexmk -pvc
+: 1693486169:0;explain "latexmk -pvc"
+: 1693486183:0;flatpak install flathub org.kde.kile
+: 1693490929:0;rg chead
+: 1693490935:0;rg document
+: 1693490940:0;rg bf
+: 1693491396:0;l
+: 1693491408:0;trash -n
+: 1693491418:0;trash "-n"
+: 1693491421:0;rm -n
+: 1693491586:0;cd /usr/local
+: 1693491588:0;cd texlive
+: 1693491605:0;cd texmf-local
+: 1693491606:0;ll
+: 1693491629:0;cd
+: 1693491638:0;fd --hidden babel
+: 1693494673:0;sudo snap install urban-terror
+: 1693495247:0;cd Desktop/Bachelorarbeit
+: 1693495249:0;rg addchap
+: 1693495411:0;reset-resolution
+: 1693497229:0;sudo snap remove urban-terror
+: 1693497311:0;√∂akds√∂la
+: 1693497315:0;lvim
+: 1693497323:0;source
+: 1693497330:0;la√∂sdk
+: 1693497361:0;lvim ~/.zsh_alias
+: 1693497566:0;zsh
+: 1693497664:0;source ~/.zshrc
+: 1693497678:0;lvim ~/.zshrc

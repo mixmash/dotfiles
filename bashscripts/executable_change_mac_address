@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ip link show
+sudo ip link set dev wlp3s0 down
+sudo macchanger -r wlp3s0
+sudo ip link set dev wlp3s0 up
+

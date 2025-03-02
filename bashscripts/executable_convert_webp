@@ -1,0 +1,18 @@
+#!/bin/bash
+
+for i in *.webp;
+do
+    NEW_NAME=$(basename $i .webp)".png"
+    dwebp "$i" -o "$NEW_NAME"
+done
+
+read -p "Are you sure? " -n 1 -r
+echo    # (optional) move to a new line
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    echo "Moving .webp files to trash."
+    for i in *.webp;
+    do
+        trash "$i"
+    done
+fi

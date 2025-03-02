@@ -1,0 +1,326 @@
+#!/bin/sh
+# measure time
+# zmodload zsh/zprof
+
+# Install zap plugin if not existent
+if ! [ -x "$(command -v git)" ]; then
+  zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) --branch release-v1
+  exit 1
+fi
+
+# Enable fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+######
+# ZSH Options
+######
+
+# History# share history across multiple zsh sessions
+setopt SHARE_HISTORY
+# append to history
+setopt APPEND_HISTORY
+# adds commands as they are typed, not at shell exit
+setopt INC_APPEND_HISTORY
+# expire duplicates first
+setopt HIST_EXPIRE_DUPS_FIRST
+# do not store duplications
+setopt HIST_IGNORE_DUPS
+#ignore duplicates when searching
+setopt HIST_FIND_NO_DUPS
+# removes blank lines from history
+setopt HIST_REDUCE_BLANKS
+setopt EXTENDED_HISTORY     # Add timestamp to history
+# Do not print directory after changing it via 'cd'
+setopt CD_SILENT
+HISTFILE=~/.zsh_history
+# Do not store the 'history' command in history
+setopt HIST_NO_STORE
+export HISTTIMEFORMAT="[%F %T] "
+export HISTFILESIZE=10000
+export HISTSIZE=10000
+# Only add successful commands
+# Source: https://superuser.com/questions/902241/how-to-make-zsh-not-store-failed-command
+# zshaddhistory() { whence ${${(z)1}[1]} >| /dev/null || return 1 }
+
+
+source $ZDOTDIR/.zsh_alias
+source $ZDOTDIR/keybindings.sh
+XDG_CONFIG_HOME="$HOME/.config"
+# Created by Zap installer
+[ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
+plug "zsh-users/zsh-autosuggestions"
+# plug "marlonrichert/zsh-autocomplete"
+plug "zsh-users/zsh-completions"
+# plug "zap-zsh/supercharge"
+# plug "zap-zsh/exa"
+# plug "zap-zsh/zap-prompt"
+# plug "b4b4r07/enhancd"
+# plug "starship/starship"
+# plug "zsh-users/zsh-syntax-highlighting"
+plug "zdharma-continuum/fast-syntax-highlighting"
+# plug "zap-zsh/fzf"
+plug "fxbrit/nord-extended"
+# plug "agkozak/zsh-z"
+# plug "kaplanelad/shellfirm"
+# zstyle ':completion:*' special-dirs true
+# zstyle ':autocomplete:*' add-space \
+#     widget-style menu-select executables aliases functions builtins reserved-words commands
+# The following lines were added by compinstall
+# zstyle ':completion:*' use-cache on
+# zstyle ':completion:*' file-list
+# zstyle ':completion:*' cache-path "$XDG_CACHE_HOME/zsh/.zcompcache"
+# zstyle ':completion:*' completer _expand _complete _ignored _approximate
+# zstyle '*:compinit' arguments -D -i -u -C -w
+# zstyle :compinstall filename '/home/mircomalik/.zshrc'
+# End of lines added by compinstall
+# Load and initialise completion system
+# autoload -U +X bashcompinit && bashcompinit
+# autoload -Uz +X compinit && compinit
+# autoload -U +X compinit && compinit
+# autoload -U +X bashcompinit && bashcompinit
+# eval "$(stack --bash-completion-script stack)"
+# [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+# plug "joshskidmore/zsh-fzf-history-search"
+ZSH_THEME="nord-extended/nord"
+# export TERM=xterm
+# export TERM=xterm-256color
+# bindkey '^I' autosuggest-accept
+# bindkey '^I'   complete-word       # tab          | complete
+# bindkey '^[[Z' autosuggest-accept  # shift + tab  | autosuggest
+# bindkey '^[' autosuggest-accept
+# bindkey '^I^I' autosuggest-accept  ## tab twice
+# bindkey '^ ' autosuggest-accept
+# bindkey '\t' menu-select "$terminfo[kcbt]" menu-select
+# bindkey -M menuselect '\t' menu-complete "$terminfo[kcbt]" reverse-menu-complete
+
+# Make ^Z toggle between ^Z and fg
+function ctrlz() {
+if [[ $#BUFFER == 0 ]]; then
+    fg >/dev/null 2>&1 && zle redisplay
+else
+    zle push-input
+fi
+}
+
+zle -N ctrlz
+bindkey '^Z' ctrlz
+
+source $ZDOTDIR/git.zsh
+
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+      *) return;;
+esac
+
+# make less more friendly for non-text input files, see lesspipe(1)
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
+# set variable identifying the chroot you work in (used in the prompt below)
+if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
+    debian_chroot=$(cat /etc/debian_chroot)
+fi
+
+# set a fancy prompt (non-color, unless we know we "want" color)
+case "$TERM" in
+    xterm-color|*-256color) color_prompt=yes;;
+esac
+#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+# autoload bashcompinit
+# bashcompinit
+export USE_GKE_GCLOUD_AUTH_PLUGIN=True
+. "$HOME/.cargo/env"
+export PATH="$HOME/.local/bin/lvim:$PATH"
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+
+# export NVM_DIR="$HOME/.nvm"
+export NVM_DIR=~/.nvm
+ [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
+
+
+# function creategif(){
+# 	s=$1
+# 	s=$(basename "${s%.*}")
+# 	s="${s}.gif"
+# 	echo $s
+# 	ffmpeg -i $1 -vf "fps=10,scale=1200:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 $s
+# }
+
+
+# # Generated for envman. Do not edit.
+# [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
+# [ -f "/home/mircomalik/.ghcup/env" ] && source "/home/mircomalik/.ghcup/env" # ghcup-env
+
+# # https://softwaretester.info/explain-shell-direct-from-terminal/
+function explain () {
+	if [ "$#" -eq 0 ]; then
+		while read  -p "Command: " cmd; do
+			curl -Gs "https://www.mankier.com/api/explain/?cols="$(tput cols) --data-urlencode "q=$cmd"
+		done
+		echo "Bye!"
+	elif [ "$#" -eq 1 ]; then
+		curl -Gs "https://www.mankier.com/api/explain/?cols="$(tput cols) --data-urlencode "q=$1"
+	else
+		echo "Usage"
+		echo "explain                  interactive mode."
+		echo "explain 'cmd -o | ...'   one quoted command to explain it."
+	fi
+}
+function agl () {
+    # ag --literal '$@'
+    # echo "$*"
+    # echo "${@}"
+    str="'$*'"
+    ag --literal "$str"
+    # printf '%s' "${$@[@]}"; echo
+    # "$(printf ' %q' "$@")"
+
+}
+# setopt -s globstar
+
+# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+# if ! setopt -oq posix; then
+#   if [ -f /usr/share/bash-completion/bash_completion ]; then
+#     . /usr/share/bash-completion/bash_completion
+#   elif [ -f /etc/bash_completion ]; then
+#     . /etc/bash_completion
+#   fi
+# fi
+
+
+# measure time
+# zprof
+# autoload -Uz vcs_info
+# zstyle ':vcs_info:*' enable git
+# precmd() {
+#     vcs_info
+# }
+# PROMPT+='${vcs_info_msg_0_}%# '
+# zstyle ':vcs_info:git*' actionformats "%s  %r/%S %b %m%u%c "
+function prompt_git() {
+  local s='';
+  local branchName='';
+
+  # Check if the current directory is in a Git repository.
+  if [ $(git rev-parse --is-inside-work-tree &>/dev/null; echo "${?}") == '0' ]; then
+
+    # check if the current directory is in .git before running git checks
+    if [ "$(git rev-parse --is-inside-git-dir 2> /dev/null)" == 'false' ]; then
+
+      # Ensure the index is up to date.
+      git update-index --really-refresh -q &>/dev/null;
+
+      # Check for uncommitted changes in the index.
+      if ! $(git diff --quiet --ignore-submodules --cached); then
+        s+='+';
+      fi;
+
+      # Check for unstaged changes.
+      if ! $(git diff-files --quiet --ignore-submodules --); then
+        s+='!';
+      fi;
+
+      # Check for untracked files.
+      if [ -n "$(git ls-files --others --exclude-standard)" ]; then
+        s+='?';
+      fi;
+
+      # Check for stashed files.
+      if $(git rev-parse --verify refs/stash &>/dev/null); then
+        s+='$';
+      fi;
+
+    fi;
+
+    # Get the short symbolic ref.
+    # If HEAD isn’t a symbolic ref, get the short SHA for the latest commit
+    # Otherwise, just give up.
+    branchName="$(git symbolic-ref --quiet --short HEAD 2> /dev/null || \
+      git rev-parse --short HEAD 2> /dev/null || \
+    echo '(unknown)')";
+
+    [ -n "${s}" ] && s=" [${s}]";
+
+    echo -e "${1}${branchName}${blue}${s}";
+  else
+    return;
+  fi;
+}
+# eval "$(starship init zsh)"
+autoload -U colors && colors
+autoload -U promptinit && promptinit
+PROMPT="%{$fg[blue]%}%m - %{$fg[green]%}%~%{$fg[white]%}"$'\n'"› %{$reset_color%}"
+# PROMPT='%F{240}%n%F{red}@%F{green}%m:%F{141}%~$ %F{reset}'
+
+# IntelliShell
+# export INTELLI_HOME=/home/user/.local/share/intelli-shell
+# export INTELLI_SEARCH_HOTKEY=\\C-[
+# export INTELLI_LABEL_HOTKEY=\\C-[
+# export INTELLI_BOOKMARK_HOTKEY=\\C-[
+# # export INTELLI_SKIP_ESC_BIND=0
+# alias intelli-shell="'$INTELLI_HOME/bin/intelli-shell'"
+# source "$INTELLI_HOME/bin/intelli-shell.sh"
+
+export PATH="/usr/bin/perl:$PATH"
+
+export MANPATH="$MANPATH:/usr/local/texlive/2023/texmf-dist/doc/man"
+export INFOPATH="$INFOPATH:/usr/local/texlive/2023/texmf-dist/doc/info"
+export PATH=/usr/local/texlive/2023/bin/x86_64-linux:$PATH
+
+# export ENHANCD_FILTER="fzf --height 40%:fzy"
+# source ~/.shellfirm-plugin.sh
+
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# Keybindings
+# "bindkey" will list all key bindings
+# "zle -al" will list all registered command will list all registered commandss
+
+
+function dashthelp () {
+    argument=$(awk '{print $1}' $1)
+    dasht $argument PHP
+}
+
+# Set Brew Packages to the stable branch
+export HOMEBREW_UPDATE_TO_TAG=1
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+function analyse_system() {
+    echo "Space of Journal logs:"
+    journalctl --disk-usage
+    echo "Space of Thumbnail Cache :"
+    du -sh ~/.cache/thumbnails
+    echo "Space of Apt-Package Manager Cache:"
+    sudo du -sh /var/cache/apt
+    echo "Suggestions : Use Synaptic, BleachBit and GtkOrphan"
+}
+
+
+function clean_system() {
+    echo "Clean old snap packages:"
+    sh ~/bashscripts/clean_snap.sh
+    echo "Remove Journal logs:"
+    sudo journalctl --vacuum-time=3d
+    echo "Remove Thumbnail Cache :"
+    rm -rf ~/.cache/thumbnails/*
+    echo "Remove unused kernels:"
+    sudo apt-get autoremove --purge
+    echo "Remove Apt-Package Manager Cache:"
+    sudo apt-get autoclean
+    sudo apt-get clean
+    echo "Suggestions : Use Synaptic, BleachBit and GtkOrphan"
+    flatpak uninstall --unused
+    echo "Biggest twenty files on the system:"
+    find /home -type f -exec du -h {} + | sort -hr | head -20
+}
+
+export GITHUB_USERNAME="mixmash"
